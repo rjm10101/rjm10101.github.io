@@ -1,0 +1,145 @@
+/* Import Fonts */
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css');
+
+
+
+/* Body Styles */
+body {
+    padding-top: 80px;
+}
+
+/* Custom Fonts */
+@font-face {
+    font-family: 'Dala Floda Web';
+    src: url('../fonts/DalaFloda-Bold-Web.eot#iefix') format('embedded-opentype'),
+         url('../fonts/DalaFloda-Bold-Web.woff2') format('woff2'),
+         url('../fonts/DalaFloda-Bold-Web.woff') format('woff'),
+         url('../fonts/DalaFloda-Bold-Web.eot');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+/* Header Styling */
+h1, h2, h3, h4 {
+    font-family: 'Dala Floda Web';
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+/* Link Styles */
+a {
+    color: #FF5733;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Image Styles */
+img {
+    border-radius: .375rem;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;
+    height: 22vh;
+    margin-bottom: var(--bs-gutter-x, 1.5rem);
+    border-radius: .375rem;
+    min-height: 225px;
+}
+
+.img-fluid {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.7s ease;
+}
+
+.img-container:hover .img-fluid {
+    transform: scale(1.1);
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    transition: opacity 0.7s ease;
+    border-radius: .375rem;
+}
+
+.img-container:hover .overlay {
+    opacity: 1;
+}
+
+/* Theme Toggle Styles */
+#theme-toggle {
+    font-size: 1.25rem;
+    float: right;
+    padding: 2px 6px;
+}
+
+/* Logo Image Styles for Dark and Light Mode */
+[data-bs-theme='dark'] #logoImage {
+    filter: invert(1);
+}
+
+[data-bs-theme='light'] #logoImage {
+    filter: invert(0);
+}
+
+/* Additional Link Styles */
+.view-more {
+    font-size: 0.75rem;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .view-more {
+        display: none;
+    }
+}
+
+
+/* Lightbox Specific Styles */
+.lightbox {
+    cursor: zoom-in;
+}
+
+/* Lightbox Overlay */
+
+
+#lightboxOverlay {
+    display: none;
+    opacity: 0; /* Default to invisible */
+    transition: opacity 0.5s;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft drop shadow */
+}
+
+
+
+/* Animation Styles */
+.animate {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out;
+}
+
+.animate.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
