@@ -304,6 +304,9 @@
             font-weight: 500;
             letter-spacing: 0.04em;
             text-decoration: none;
+            border: none;
+            cursor: pointer;
+            font-family: inherit;
             transition: background 0.25s ease, transform 0.2s var(--ease), box-shadow 0.25s;
             box-shadow: 0 2px 12px rgba(0,0,0,0.3);
         }
@@ -364,7 +367,7 @@
                         <svg width="7" height="9" viewBox="0 0 7 9" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M3.5 0C1.84 0 .5 1.34.5 3c0 2.25 3 5.5 3 5.5s3-3.25 3-5.5C6.5 1.34 5.16 0 3.5 0zm0 4.12A1.12 1.12 0 1 1 3.5 1.88a1.12 1.12 0 0 1 0 2.24z" fill="currentColor"/>
                         </svg>
-                        Honolulu, HI
+                        Waikīkī, HI
                     </div>
                     <div class="weather-row">
                         <span class="w-icon" id="wIcon">–</span>
@@ -444,15 +447,15 @@
             <div class="rule"></div>
 
             <!-- vCard -->
-            <a class="vcf-btn" href="/RayMarkContact.vcf" download="RayMark.vcf" aria-label="Download contact card">
+            <button class="vcf-btn" id="vcfBtn" aria-label="Download contact card">
                 <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="7.5" cy="5.5" r="2.5" stroke="currentColor" stroke-width="1.25"/>
                     <path d="M2 13c0-3.05 2.46-4 5.5-4s5.5.95 5.5 4" stroke="currentColor" stroke-width="1.25" stroke-linecap="round"/>
                     <circle cx="11.5" cy="11.5" r="3" fill="currentColor" opacity=".15"/>
                     <path d="M11.5 9.5v4M9.5 11.5h4" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
                 </svg>
-                Add to Contacts
-            </a>
+                <span id="vcfLabel">Add to Contacts</span>
+            </button>
 
         </div><!-- /card-inner -->
     </article>
@@ -510,7 +513,7 @@
         async function load() {
             try {
                 const r = await fetch(
-                    'https://api.open-meteo.com/v1/forecast?latitude=21.3069&longitude=-157.8583' +
+                    'https://api.open-meteo.com/v1/forecast?latitude=21.2793&longitude=-157.8294' +
                     '&current_weather=true&temperature_unit=fahrenheit'
                 );
                 const d = await r.json();
@@ -564,6 +567,32 @@
                     }, 2500);
                 })
                 .catch(() => { window.location.href = 'mailto:ray.mark@cirquedusoleil.com'; });
+        });
+    })();
+
+    /* ── vCard download (Safari-safe blob fetch) ── */
+    (function () {
+        const btn   = document.getElementById('vcfBtn');
+        const label = document.getElementById('vcfLabel');
+        btn.addEventListener('click', async () => {
+            label.textContent = 'Saving…';
+            try {
+                const res  = await fetch('/RayMarkContact.vcf');
+                const data = await res.arrayBuffer();
+                const blob = new Blob([data], { type: 'text/vcard' });
+                const url  = URL.createObjectURL(blob);
+                const a    = document.createElement('a');
+                a.href     = url;
+                a.download = 'RayMark.vcf';
+                document.body.appendChild(a);
+                a.click();
+                setTimeout(() => { document.body.removeChild(a); URL.revokeObjectURL(url); }, 200);
+                label.textContent = 'Saved ✓';
+                setTimeout(() => { label.textContent = 'Add to Contacts'; }, 2500);
+            } catch {
+                window.location.href = '/RayMarkContact.vcf';
+                label.textContent = 'Add to Contacts';
+            }
         });
     })();
     </script>
