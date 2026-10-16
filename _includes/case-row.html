@@ -1,0 +1,51 @@
+{%- comment -%}
+  One row of case-study pieces at equal heights (flex-grow = aspect ratio).
+  Params: items (array of items from _data/auana.yml), narrow, grid, label.
+  Items with "back" render as flip cards; "sides" names the two sides.
+  Items with "video" play a silent loop over their still image (the still
+  shows instead when reduced motion is on).
+{%- endcomment -%}
+  {%- if include.label %}<p class="label case-row-label{% if include.narrow %} case-row-label--narrow{% endif %}">{{ include.label }}</p>{% endif %}
+  {%- assign total = 0.0 %}
+  {%- for it in include.items %}{% assign r = it.width | times: 1.0 | divided_by: it.height %}{% assign total = total | plus: r %}{% endfor %}
+  <div class="case-row{% if include.narrow %} case-row--narrow{% endif %}{% if include.grid %} case-row--grid{% endif %}">
+    {%- for it in include.items %}
+    {%- assign r = it.width | times: 1.0 | divided_by: it.height %}
+    {%- assign share = r | divided_by: total %}
+    {%- if include.narrow %}
+    {%- capture sizes %}(max-width: 599px) 90vw, 560px{% endcapture %}
+    {%- else %}
+    {%- assign px = share | times: 1232 | round %}
+    {%- assign vw = share | times: 90 | round %}
+    {%- capture sizes %}(max-width: 599px) 90vw, (min-width: 1360px) {{ px }}px, {{ vw }}vw{% endcapture %}
+    {%- endif %}
+    {%- if it.back %}
+    {%- assign front_label = it.sides[0] | default: 'Front' %}
+    {%- assign back_label = it.sides[1] | default: 'Back' %}
+    {%- capture front_caption %}{{ it.caption }} — {{ front_label }}{% endcapture %}
+    {%- capture back_caption %}{{ it.caption }} — {{ back_label }}{% endcapture %}
+    <figure class="case-item case-flip reveal" style="flex-grow: {{ r | round: 4 }}" data-front="{{ front_label }}" data-back="{{ back_label }}">
+      <div class="frame">
+        <div class="case-card">
+          {% include case-figure.html it=it sizes=sizes caption=front_caption class="case-face case-front" %}
+          {% include case-figure.html it=it sizes=sizes image=it.back.image alt=it.back.alt caption=back_caption class="case-face case-back" %}
+        </div>
+      </div>
+      <figcaption class="label">
+        <span>{{ it.caption }} <span class="case-side">· {{ front_label }}</span></span>
+        <button class="case-flip-toggle" type="button" aria-pressed="false"><span class="case-flip-text">See the {{ back_label | downcase }}</span> <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M12.5 1.5v3h-3"/></svg></button>
+      </figcaption>
+    </figure>
+    {%- else %}
+    <figure class="case-item reveal" style="flex-grow: {{ r | round: 4 }}">
+      <div class="frame{% if it.video %} case-video{% endif %}">
+        {% include case-figure.html it=it sizes=sizes %}
+        {%- if it.video %}
+        <video src="{{ it.video | relative_url }}" poster="{{ '/assets/img/' | append: it.image | append: '.webp' | relative_url }}" muted loop playsinline autoplay preload="metadata" aria-label="{{ it.alt | escape }}"></video>
+        {%- endif %}
+      </div>
+      <figcaption class="label">{{ it.caption }}</figcaption>
+    </figure>
+    {%- endif %}
+    {%- endfor %}
+  </div>

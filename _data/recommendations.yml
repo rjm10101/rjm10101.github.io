@@ -1,0 +1,19 @@
+# Excerpts from Ray's LinkedIn recommendations, quoted word for word (an
+# ellipsis marks a cut). Shown on the About page in this order; "home: true"
+# also puts that one on the homepage.
+
+- name: Dominique Schuster
+  title: Director of Sales and Marketing, Cirque du Soleil
+  relation: Ray’s manager at Cirque du Soleil
+  quote: "He brings an impressive depth of knowledge in marketing, media strategy, and the Hawaiʻi market, along with an exceptional eye for detail. … His expertise in marketing strategy will be a valuable asset to his next team."
+
+- name: Lindsay Morgan
+  title: Fractional CMO, Ad Age 40 Under 40
+  relation: Ray’s client at Samsung
+  quote: "Ray is somehow equally analytical (he will optimize and scrutinize your media plan) and creative … If you ask Ray to do something, it will come back faster and better than you even expected."
+  home: true
+
+- name: Marc-André Pitre
+  title: Project Manager
+  relation: Worked with Ray on the ʻAuana original soundtrack
+  quote: "Ray is an incredibly talented and passionate marketing professional who brings the perfect mix of creativity, strategic thinking, and organizational skills. He’s proactive, reliable, always full of great ideas, and truly knows how to get things done."

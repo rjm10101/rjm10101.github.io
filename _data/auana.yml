@@ -1,0 +1,881 @@
+# Cirque du Soleil ʻAuana case study (auana.html).
+# Sections render in this order; rows render left to right at equal heights,
+# so any mix of portrait and landscape pieces lines up. Reorder freely.
+# Images: assets/img/<image>.webp (long edge up to 1600) + <image>-800.webp;
+# width/height are the main file's real size.
+# Set "narrow: true" on a row to cap it at about half the page width.
+# Add "back: { image, alt }" to a two-sided piece (same size as the front) to
+# show it as a card with a "See the back" flip button. Name the sides with
+# "sides: [Driver side, Passenger side]" (default Front, Back).
+
+hero:
+  label: Case study · Cirque du Soleil
+  title: ʻAuana
+  lead: "Brand, creative and sales for Cirque du Soleil’s first resident show in Hawaiʻi, at the OUTRIGGER Waikīkī Beachcomber Hotel."
+  role: Director of Marketing<br>2024 – 2026
+  image: Auana-Key-Visual
+  width: 1600
+  height: 900
+  large: 2400
+  alt: "The ʻAuana key visual: performers in Hawaiian costume on a volcanic ridge under a sunrise sky, with the Cirque du Soleil ʻAuana wordmark and the tagline “A new sun rises in Hawaiʻi.”"
+  caption: Key visual
+
+overview:
+  title: Hawaiʻi’s first resident Cirque du Soleil show
+  meta:
+    - { label: Role, value: Director of Marketing }
+    - { label: Dates, value: Aug 2024 – Oct 2026 }
+    - { label: Location, value: "Honolulu, Hawaiʻi" }
+    - { label: Venue, value: OUTRIGGER Waikīkī Beachcomber Hotel }
+  lead: "Led marketing for ʻAuana, Cirque du Soleil’s first resident show in Hawaiʻi."
+  body:
+    - "Owned multi-million-dollar sales, marketing and communications budgets against KPI and EBITDA targets. Developed the ʻAuana brand guidelines and key visuals, and created all collateral and ad creative in-house for paid media, print, on-site and partner campaigns."
+  quote: "In a world with zero blueprints, bringing Hawaiʻi’s first resident Cirque du Soleil show to life… takes constant adaptation and a calm center amidst the chaos."
+  quote_source: Pacific Edge Magazine
+  quote_url: https://lnkd.in/p/gi7iyJRZ
+
+results:
+  stats:
+    - { value: 470K+, label: Guests }
+    - { value: $47M+, label: "Ticket revenue, including advance sales" }
+    - { value: "868", label: Performances }
+    - { value: "87", label: Net Promoter Score }
+    - { value: $25M, label: "First full year, ahead of budget" }
+    - { value: $1.1M+, label: "Already booked for 245 upcoming shows" }
+  cols: 3
+  note: "Launch: $1.9M in advance sales; beat the launch budget by 16%. Ticketing figures through October 13, 2026."
+
+sections:
+  - id: brand
+    label: Brand and key visuals
+    title: The ʻAuana brand guidelines
+    intro: "Developed the ʻAuana brand guidelines and the show’s two key visuals, each made in portrait and landscape. The performers were shot on green screen, then keyed and composited onto the volcanic ridge. The identity draws on kapa, traditional Hawaiian printmaking: bark cloth beaten soft, then hand-printed with carved bamboo stamps. Each of the show’s scenes owns a color and a pattern."
+    rows:
+      - items:
+          - image: Auana-Key-Visual-1-Portrait
+            width: 900
+            height: 1600
+            alt: "Key visual 1, portrait: the full cast on a volcanic ridge under a sunrise sky, a chiefly figure at the center, with the wordmark, tagline and “Now performing.”"
+            caption: Key visual 1 — Portrait
+          - image: Auana-Key-Visual
+            width: 1600
+            height: 900
+            large: 2400
+            alt: "Key visual 1, landscape: the full cast spread across the volcanic ridge under a sunrise sky, with the wordmark and tagline."
+            caption: Key visual 1 — Landscape
+      - items:
+          - image: Auana-Key-Visual-2-Landscape
+            width: 1600
+            height: 900
+            alt: "Key visual 2, landscape: three lead performers on the ridge under a sunrise sky, an aerialist and fire dancer above, with the wordmark and tagline."
+            caption: Key visual 2 — Landscape
+          - image: Auana-Key-Visual-2-Portrait
+            width: 900
+            height: 1600
+            alt: "Key visual 2, portrait: three lead performers on the ridge under a sunrise sky, with the wordmark, tagline and “Now performing.”"
+            caption: Key visual 2 — Portrait
+      - label: "Key visual shoot · From green screen to key visual · Photography: Matt Beard"
+        items:
+          - image: Auana-KV-Shoot-Alaana-Green
+            width: 1200
+            height: 1600
+            alt: "A hula dancer in a kapa-pattern costume poses in front of a green screen in the studio."
+            caption: Green screen
+          - image: Auana-KV-Shoot-Alaana-Cutout
+            width: 910
+            height: 1600
+            alt: "The same dancer keyed out from the green screen, ready to composite."
+            caption: Keyed, for key visual 1
+          - image: Auana-KV-Shoot-Tau-Green
+            width: 1200
+            height: 1600
+            alt: "A male dancer in a kapa-pattern malo lunges with arms outstretched in front of a green screen."
+            caption: Green screen
+          - image: Auana-KV-Shoot-Tau-Cutout
+            width: 1228
+            height: 1600
+            alt: "The same dancer keyed out from the green screen, ready to composite."
+            caption: Keyed, for key visuals 1 and 2
+      - items:
+          - image: Auana-Brand-Printed-Kapa
+            width: 1600
+            height: 900
+            alt: "Brand guidelines page, “Brand concept: Printed Kapa,” with photos of kapa cloth being hand-stamped."
+            caption: Brand guidelines — Brand concept
+          - image: Auana-Brand-Scene-Palette
+            width: 1600
+            height: 900
+            alt: "Brand guidelines page showing the secondary color palette: one color for each of the show’s scenes and characters."
+            caption: Brand guidelines — Scene palette
+      - items:
+          - image: Auana-Brand-Scene-Patterns
+            width: 1600
+            height: 900
+            alt: "Brand guidelines page showing eight black-and-white kapa patterns, one for each scene."
+            caption: Brand guidelines — Scene patterns
+          - image: Auana-Brand-Scene-Usage
+            width: 1600
+            height: 900
+            alt: "Brand guidelines page with example posters for the Holo Moana and Naupaka scenes, each in its scene color."
+            caption: Brand guidelines — Scenes in use
+
+  - id: photo-video
+    label: Photo and video
+    title: Directing the shoots
+    intro: "Directed the photo and video shoots behind the campaign: the live show, studio portraits, the OUTRIGGER Theater and the VIP experience. Hired the photographers and videographers, briefed each shoot and directed on set, building the image library used across ads, social, press and partners."
+    rows:
+      - label: "Live show · Photography: Matt Beard"
+        items:
+          - image: Auana-Photo-Lua-Pele
+            width: 1600
+            height: 1067
+            alt: "Hula dancers in fringed costumes, silhouetted in red light and haze on the round stage."
+            caption: Lua Pele · Hula
+      - items:
+          - image: Auana-Photo-Anuenue
+            width: 1600
+            height: 1067
+            alt: "A lone performer silhouetted against a glowing orange sun, ringed by kapa-pattern lights."
+            caption: Ānuenue · Hula
+          - image: Auana-Photo-Golden-Age
+            width: 1600
+            height: 1067
+            alt: "The Golden Age scene: a vintage Hawaiʻi postcard set, palm trees and the full ensemble under yellow and blue spotlights."
+            caption: Golden Age · Icarian games
+      - items:
+          - image: Auana-Photo-Nalu
+            width: 1067
+            height: 1600
+            alt: "A performer balancing on a rola bola above a cascading water curtain in blue light."
+            caption: Nalu · Rola bola
+          - image: Auana-Photo-Mamala
+            width: 1600
+            height: 1067
+            alt: "An artist performing inside a giant glass water bowl under blue and violet light."
+            caption: Māmala · Water bowl
+          - image: Auana-Photo-Naupaka
+            width: 1067
+            height: 1600
+            alt: "The Naupaka duo skaters spinning on a round platform beneath a projected waterfall in green light."
+            caption: Naupaka · Duo skaters
+      - items:
+          - image: Auana-Photo-Hina
+            width: 1600
+            height: 1067
+            alt: "An aerialist on a lyra high above dancers in flowing costumes, lit in deep blue and violet."
+            caption: Hina · Aerial lyra
+          - image: Auana-Photo-Aloha-Aina
+            width: 1600
+            height: 1067
+            alt: "A hula dancer in a voluminous skirt pours sand from her hands while others kneel nearby in amber light."
+            caption: Aloha ʻĀina · Sand art
+      - label: "Studio · For press and partners · Photography: Matt Beard"
+        items:
+          - image: Auana-Photo-Studio-Mami
+            width: 1200
+            height: 1600
+            alt: "A performer in a kapa-pattern costume and lei reaches toward the camera, lying on a skirt printed with the ʻAuana pattern."
+            caption: Studio portrait
+          - image: Auana-Photo-Studio-Jerson
+            width: 1200
+            height: 1600
+            alt: "A performer in a red and black feathered costume leaps mid-air against a white studio backdrop."
+            caption: White backdrop
+      - label: "The OUTRIGGER Theater · Photography: Ryo Jaeger"
+        items:
+          - image: Auana-Photo-Theater-Center
+            width: 1600
+            height: 1067
+            alt: "The empty OUTRIGGER Theater seen head-on: seating in the round around the stage, the ʻAuana sun logo glowing beyond."
+            caption: The theater in the round
+          - image: Auana-Photo-Theater-Side
+            width: 1600
+            height: 1067
+            alt: "The OUTRIGGER Theater from the side, with curved rows of seats lit in purple around the stage and the ʻAuana logo."
+            caption: From the side
+      - label: "VIP experience · Photography: Paul Strouse"
+        items:
+          - image: Auana-Photo-VIP-Entry
+            width: 1067
+            height: 1600
+            alt: "A couple walks hand in hand down a neon-lit entry hallway."
+            caption: The entry
+          - image: Auana-Photo-VIP-Arrivals
+            width: 1600
+            height: 1067
+            alt: "Guests take a selfie in front of a large Cirque du Soleil ʻAuana sign."
+            caption: Arrivals
+          - image: Auana-Photo-VIP-Tap
+            width: 1067
+            height: 1600
+            alt: "A beer pours from an ʻAuana-branded Maui Brewing Co. tap handle into a cup."
+            caption: ʻAuana on tap
+      - items:
+          - image: Auana-Photo-VIP-Performers
+            width: 1600
+            height: 1067
+            alt: "Guests pose with two ʻAuana performers in lei in front of a yellow kapa-pattern wall."
+            caption: Meeting the performers
+          - image: Auana-Photo-VIP-Food
+            width: 1231
+            height: 1600
+            alt: "An overhead spread of sliders, flatbread pizzas, skewers and cocktails on a wooden table."
+            caption: Food and drinks
+          - image: Auana-Photo-VIP-Lounge
+            width: 1600
+            height: 1067
+            alt: "Two guests share drinks and a laugh in a lounge lit in pink and blue."
+            caption: The lounge
+
+  - id: print
+    label: Print
+    title: From teaser to first anniversary
+    intro: "Print ran from the launch teaser to the first-anniversary campaign, across local, visitor, national and trade titles."
+    rows:
+      - items:
+          - image: Auana-Print-Travel-Weekly-Cover-Wrap
+            width: 1600
+            height: 728
+            alt: "Travel Weekly cover wrap with the ʻAuana key visual and show description."
+            caption: Travel Weekly — Cover wrap
+      - items:
+          - image: Auana-Print-Hana-Hou
+            width: 1192
+            height: 1600
+            alt: "Full-page ad of the key visual: the full cast on a volcanic ridge under a sunrise sky, with the show description."
+            caption: Hana Hou! — Full page
+          - image: Auana-Print-Hana-Hou-Spread
+            width: 1600
+            height: 1059
+            alt: "Magazine spread with an aerialist above dancers in purple stage light and two press quotes."
+            caption: Hana Hou! — Spread
+      - items:
+          - image: Auana-Print-Star-Advertiser-Teaser
+            width: 777
+            height: 1600
+            alt: "Tall full-page teaser ad: a performer in a handstand silhouetted against a kapa-patterned sun."
+            caption: Honolulu Star-Advertiser — Teaser, full page
+          - image: Auana-Print-USA-Today
+            width: 777
+            height: 1600
+            alt: "Full-page ad headed “Celebrating one year in Waikīkī,” with press quotes over the key visual."
+            caption: USA Today — First anniversary, full page
+          - image: Auana-Print-Modern-Luxury
+            width: 1346
+            height: 1600
+            alt: "Full-page ad with acrobats performing on a gold-lit stage under the ʻAuana wordmark."
+            caption: Modern Luxury — Full page
+      - items:
+          - image: Auana-Print-HI-Luxury-2
+            width: 1204
+            height: 1600
+            alt: "Full-page ad of the key visual: three performers on a volcanic ridge under a sunrise sky, with the show description."
+            caption: HI Luxury — Full page, key visual
+          - image: Auana-Print-HI-Luxury
+            width: 1204
+            height: 1600
+            alt: "Full-page ad of the Naupaka duo skaters spinning on a round stage in green light, under the ʻAuana wordmark."
+            caption: HI Luxury — Full page, Naupaka
+          - image: Auana-Print-101-Things
+            width: 1213
+            height: 1600
+            alt: "Full-page ad headed “Waikīkī’s newest must-see show” with a fire dancer leaping through flames."
+            caption: 101 Things to Do — Full page
+
+  - id: kamaaina
+    label: Kamaʻāina and offers
+    title: A show for locals, too
+    intro: "The kamaʻāina (local) strategy, plus offers built for families and for soft dates."
+    stats:
+      - { value: 119K+, label: "Local tickets ($10.4M)" }
+      - { value: $530K+, label: "Aloha Fridays, which more than halved the Friday late-show occupancy gap" }
+      - { value: $3M+, label: Family program }
+      - { value: 33% → 67%, label: "Occupancy for a soft show, from a 24-hour July 4 BOGO" }
+      - { value: $411K, label: "Black Friday/Cyber Monday, 5,374 tickets" }
+    cols: 3
+    rows:
+      - items:
+          - image: Auana-Kamaaina-Aloha-Festivals-Guide
+            width: 1553
+            height: 1600
+            alt: "Back-cover ad: the key visual beside a red panel reading “Tickets start at $86” and “30% off for kamaʻāina.”"
+            caption: Aloha Festival Guide — Back cover
+          - image: Auana-Kamaaina-FLUX
+            width: 1189
+            height: 1600
+            alt: "Full-page ad quoting USA Today, “A love letter to island culture,” over the Golden Age scene, with a kamaʻāina offer."
+            caption: FLUX — Full page
+          - image: Auana-Kamaaina-Military-Guide
+            width: 1600
+            height: 1266
+            alt: "Magazine spread of a performer balancing on a rola bola in blue light, offering kamaʻāina and military specials."
+            caption: Hawaiʻi Military Guide — Spread
+
+  - id: out-of-home
+    label: Out-of-home
+    title: From the airport to Kalākaua
+    intro: "Billboards are banned in Hawaiʻi, so there was no easy outdoor buy. Every placement had to be found: airport displays, mall walls and escalators, storefront and lobby windows, a garage mural, shuttles and company vans. Outdoor still became the most-recalled medium."
+    stats:
+      - { value: 9% → 27%, label: "Guest ad recall for outdoor, the highest of any medium" }
+    rows:
+      - items:
+          - image: Auana-OOH-Kalakaua-Windows
+            width: 1600
+            height: 892
+            alt: "Street-level storefront on Kalākaua Avenue with a run of ʻAuana posters across the upper windows."
+            caption: Kalākaua Avenue — Storefront windows
+      - items:
+          - image: Auana-OOH-IMP-Retail-Wall
+            width: 1600
+            height: 1600
+            alt: "A long retail wall wrapped in the key visual and show photography, in a shopping center walkway."
+            caption: International Market Place — Retail wall
+          - image: Auana-OOH-IMP-Escalator
+            width: 1600
+            height: 1600
+            alt: "An escalator in a multi-level shopping center wrapped in red with “A new sun rises in Hawaiʻi.”"
+            caption: International Market Place — Escalator wrap
+      - items:
+          - image: Auana-OOH-Lobby-Windows
+            width: 1600
+            height: 1014
+            alt: "A run of lobby windows wrapped floor to ceiling with ʻAuana performers, each on its scene color, from red through purple."
+            caption: Lobby windows
+          - image: Auana-OOH-Garage-Wall
+            width: 1600
+            height: 892
+            alt: "Parking-garage wall mural of the key visual with “Now performing, get your tickets.”"
+            caption: Parking garage — Wall mural
+      - items:
+          - image: Auana-OOH-Airport-Arrivals
+            width: 1600
+            height: 1164
+            alt: "Travelers with luggage walking past a large ʻAuana tension-fabric display in an open-air airport walkway."
+            caption: Airport — Tension-fabric display
+          - image: Auana-OOH-Airport-Baggage-Claim
+            width: 1600
+            height: 1562
+            alt: "A backlit ʻAuana teaser display beside an airport baggage carousel."
+            caption: Airport — Baggage-claim teaser
+      - items:
+          - image: Auana-OOH-Shuttle
+            width: 1600
+            height: 1416
+            alt: "A white shuttle van wrapped with the key visual, parked on a Waikīkī street."
+            caption: Shuttle wrap
+            sides: [Side, Back]
+            back:
+              image: Auana-OOH-Shuttle-Back
+              alt: "The back of the shuttle van: an aerialist, the OC Register quote “Heartfelt and heart-stopping, Waikīkī’s newest must-see attraction,” and the ʻAuana wordmark."
+          - image: Auana-OOH-Company-Van-Driver
+            width: 1600
+            height: 1248
+            alt: "A white company minivan wrapped with an aerialist, the ʻAuana wordmark and sunrise colors, parked under palm trees."
+            caption: Company van
+            sides: [Driver side, Passenger side]
+            back:
+              image: Auana-OOH-Company-Van-Passenger
+              alt: "The company minivan’s passenger side and rear, wrapped with a performer in a feathered costume and the ʻAuana wordmark."
+
+  - id: on-property
+    label: On property
+    title: Arriving at the show
+    intro: "Signage, photo moments and point-of-sale across the OUTRIGGER Waikīkī Beachcomber Hotel, home of the OUTRIGGER Theater."
+    stats:
+      - { value: +15%, label: "Visitor ticket sales year over year (+$960K), on 4% fewer performances" }
+    rows:
+      - items:
+          - image: Auana-Onsite-Porte-Cochere
+            width: 1600
+            height: 1254
+            alt: "Porte-cochère wall graphics: a Broadway World quote, “Nothing short of a joyous celebration of Hawaiʻi,” beside the key visual."
+            caption: Porte-cochère wall
+          - image: Auana-Onsite-Building-Signage
+            width: 1600
+            height: 1600
+            alt: "Hotel facade with a large kapa sunburst pattern and the ʻAuana wordmark above the entrance."
+            caption: Building signage
+      - items:
+          - image: Auana-Onsite-Lobby-Photo-Spot
+            width: 1600
+            height: 1600
+            alt: "Lobby photo spot: a black circular portal ringed with blue kapa triangles around the ʻAuana wordmark."
+            caption: Lobby photo spot
+          - image: Auana-OOH-Photo-Activation
+            width: 1248
+            height: 1600
+            alt: "Two guests posing in a sculpted canoe on a wave in front of a kapa-patterned sun backdrop."
+            caption: Photo activation
+          - image: Auana-Onsite-Escalator-Wall
+            width: 1600
+            height: 1459
+            alt: "Wall beside an escalator with a red and orange kapa sunburst around the ʻAuana wordmark."
+            caption: Escalator wall
+      - items:
+          - image: Auana-Onsite-Cart-Touchscreen
+            width: 1600
+            height: 1600
+            alt: "A sales cart wrapped in a kapa sunburst, topped with a touchscreen that plays show videos."
+            caption: Sales cart and touchscreen
+          - image: Auana-Onsite-In-Room-Table-Tent
+            width: 1600
+            height: 1600
+            alt: "Two in-room table tents on a desk: the key visual, and “Don’t miss the show everyone’s talking about” with a hotel-guest offer."
+            caption: In-room table tent
+      - items:
+          - image: Auana-Onsite-Sandwich-Board-Front
+            width: 1600
+            height: 1600
+            alt: "A-frame sign with a rola bola performer on blue, reading “Tickets available tonight.”"
+            caption: Sandwich board
+            back:
+              image: Auana-Onsite-Sandwich-Board-Back
+              alt: "The other side of the A-frame sign: a hula dancer on orange, reading “Tickets available tonight.”"
+          - image: Auana-Onsite-Coaster-Front
+            width: 1600
+            height: 1600
+            alt: "Square coaster with the ʻAuana key visual and a QR code for tickets."
+            caption: Coaster
+            back:
+              image: Auana-Onsite-Coaster-Back
+              alt: "Back of the coaster: the ʻAuana wordmark and a short show description on black, with a QR code."
+
+  - id: sales
+    label: Sales tools
+    title: For concierges and the box office
+    intro: "Tools for hotel concierges, brochure racks and the box office."
+    stats:
+      - { value: "32", label: "Sales channels, including 12 travel and booking partners connected by API" }
+    rows:
+      - items:
+          - image: Auana-Sales-Concierge-Deskmat
+            width: 1600
+            height: 1052
+            alt: "Concierge deskmat with a color-coded theater seating chart, show description and stage photos."
+            caption: Concierge deskmat
+            back:
+              image: Auana-Sales-Concierge-Deskmat-Back
+              alt: "Back of the concierge deskmat: “Know before you go” and “About ʻAuana,” with press quotes and show photos."
+          - image: Auana-Sales-Factsheet
+            width: 1245
+            height: 1600
+            alt: "Factsheet with the key visual, show information, concierge support details and a strip of show photos."
+            caption: Factsheet
+      - items:
+          - image: Auana-Sales-Seating-Chart
+            width: 1245
+            height: 1600
+            alt: "Seating chart for the 784-seat theater, color-coded by ticket category around a thrust stage."
+            caption: Seating chart
+          - image: Auana-Sales-Show-Calendar
+            width: 1244
+            height: 1600
+            alt: "2027 show calendar with performance days, matinees and dark dates marked by month."
+            caption: Show calendar
+          - image: Auana-Sales-Rack-Card
+            width: 737
+            height: 1600
+            alt: "Rack card with the key visual cast and a quote from The AU Review, “ʻAuana is Cirque at its best.”"
+            caption: Rack card
+            back:
+              image: Auana-Sales-Rack-Card-Back
+              alt: "Back of the rack card: “A celebration of Hawaiʻi,” with press quotes, showtimes, ticket prices and location."
+
+  - id: digital
+    label: Digital and social
+    title: Display, social and HTML5
+    intro: "Animated HTML5 and static display, plus Instagram posts, reels and stories, for the launch, kamaʻāina and seasonal campaigns. All created in-house."
+    rows:
+      - label: Launch teaser · animated HTML5 banners
+        motion:
+          - { folder: auana-teaser-wide, width: 728, height: 90, wide: true }
+          - { folder: auana-teaser-tall, width: 300, height: 600 }
+          - { folder: auana-teaser-narrow, width: 160, height: 600 }
+          - { folder: auana-teaser-medium, width: 300, height: 250 }
+          - { folder: auana-teaser-mobile, width: 320, height: 50, mobile: true }
+      - label: Display · billboards
+        items:
+          - image: Auana-Digital-Billboard-Aloha-Fridays
+            width: 1600
+            height: 412
+            alt: "Billboard display ad for Kamaʻāina Aloha Fridays: a hula dancer silhouetted in a pink sun ringed by kapa triangles, with up to 30% off for residents."
+            caption: "Kamaʻāina Aloha Fridays · 970×250"
+          - image: Auana-Digital-Billboard-Keiki-Nights
+            width: 970
+            height: 250
+            alt: "Billboard display ad for Keiki Nights: the Golden Age scene with a $25 kid ticket offer for Hawaiʻi residents."
+            caption: "Keiki Nights · 970×250"
+      - label: Display · half-page units
+        items:
+          - image: Auana-Digital-Skyscraper-Must-See
+            width: 300
+            height: 600
+            alt: "Half-page display ad: a fire dancer leaping under “Waikīkī’s newest must-see show.”"
+            caption: "Must-see show · 300×600"
+          - image: Auana-Digital-Skyscraper-Valentines
+            width: 300
+            height: 600
+            alt: "Half-page display ad on magenta: an aerialist in a heart of petals, “The perfect Waikīkī date night,” buy one get one 50% off."
+            caption: "Valentine’s Day · 300×600"
+          - image: Auana-Digital-Skyscraper-Mothers-Day
+            width: 300
+            height: 600
+            alt: "Half-page display ad on teal: an aerialist beside “Celebrate Mothers” in script, with a family 4-pack offer."
+            caption: "Mother’s Day · 300×600"
+          - image: Auana-Digital-Skyscraper-Fall-Special
+            width: 300
+            height: 600
+            alt: "Half-page display ad on deep blue: a rola bola performer above “Buy 3, get 1 free.”"
+            caption: "Fall family special · 300×600"
+      - label: Social · Instagram posts
+        items:
+          - image: Auana-Social-Post-Aloha-Family-Weekends
+            width: 1080
+            height: 1080
+            alt: "Square Instagram post: an aerialist upside down above the stage, “Special Aloha Family Weekends.”"
+            caption: "Aloha Family Weekends · Post"
+          - image: Auana-Social-Post-Aloha-Fridays
+            width: 1080
+            height: 1350
+            alt: "Instagram post: the ʻAuana wordmark in a pink sun ringed by kapa triangles, “Kamaʻāina Aloha Fridays,” up to 30% off."
+            caption: "Kamaʻāina Aloha Fridays · Post"
+          - image: Auana-Social-Post-Keiki-Nights
+            width: 1080
+            height: 1350
+            alt: "Instagram post of the Golden Age scene with “Keiki Nights, $25 kid ticket.”"
+            caption: "Keiki Nights · Post"
+      - items:
+          - image: Auana-Social-Post-Fall-Special
+            width: 1080
+            height: 1350
+            alt: "Instagram post: a rola bola performer in blue light, “Fall family special, buy 3 get 1 free.”"
+            caption: "Fall family special · Post"
+          - image: Auana-Social-Post-Valentines
+            width: 1080
+            height: 1350
+            alt: "Instagram post on magenta: an aerialist in a heart of petals, “The perfect Waikīkī date night.”"
+            caption: "Valentine’s Day · Post"
+          - image: Auana-Social-Post-Mothers-Day
+            width: 1080
+            height: 1080
+            alt: "Square Instagram post on teal: an aerialist and “Celebrate Mothers” in script, with a family 4-pack offer."
+            caption: "Mother’s Day · Post"
+      - label: Social · reels and stories
+        items:
+          - image: Auana-Social-Reel-Aloha-Family-Weekends
+            width: 900
+            height: 1600
+            alt: "Vertical reel cover: an aerialist above a sunset stage, “Special Aloha Family Weekends,” keiki tickets $15."
+            caption: "Aloha Family Weekends · Reel"
+          - image: Auana-Social-Reel-Keiki-Nights
+            width: 900
+            height: 1600
+            alt: "Vertical reel cover of the Golden Age scene with “Keiki Nights, $25 kid ticket.”"
+            caption: "Keiki Nights · Reel"
+          - image: Auana-Social-Reel-Fall-Special
+            width: 900
+            height: 1600
+            alt: "Vertical reel cover: a rola bola performer above a water bowl, “Buy 3, get 1 free.”"
+            caption: "Fall family special · Reel"
+          - image: Auana-Social-Story-Mothers-Day
+            width: 900
+            height: 1600
+            alt: "Vertical story on teal: “Celebrate Mothers” in script with an aerialist and a family 4-pack offer."
+            caption: "Mother’s Day · Story"
+      - label: Social · reviews and pull quotes, one per scene
+        grid: true
+        items:
+          - image: Auana-Social-Quote-01-Holo-Moana
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Holo Moana scene photo: ‘ʻAuana is Cirque at its best,’ The AU Review, five stars."
+            caption: "Holo Moana · The AU Review"
+          - image: Auana-Social-Quote-02-Golden-Age
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Golden Age scene photo: ‘A joyous celebration of Hawaiʻi,’ Broadway World."
+            caption: "Golden Age · Broadway World"
+          - image: Auana-Social-Quote-03-Hina
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Hina scene photo: ‘A love letter to island culture,’ USA Today, #4 best new attraction."
+            caption: "Hina · USA Today"
+          - image: Auana-Social-Quote-04-Nalu
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Nalu scene photo: ‘Heartfelt and heart-stopping,’ OC Register."
+            caption: "Nalu · OC Register"
+      - grid: true
+        items:
+          - image: Auana-Social-Quote-05-Aloha-Aina
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over an Aloha ʻĀina scene photo: ‘Exquisite,’ Honolulu Star-Advertiser."
+            caption: "Aloha ʻĀina · Honolulu Star-Advertiser"
+          - image: Auana-Social-Quote-06-Mamala
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Māmala scene photo: ‘Riveting from beginning to end,’ Travelage West."
+            caption: "Māmala · Travelage West"
+          - image: Auana-Social-Quote-07-Naupaka
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Naupaka scene photo: ‘The best show in Hawaiʻi,’ Travel Weekly."
+            caption: "Naupaka · Travel Weekly"
+          - image: Auana-Social-Quote-08-Pele
+            width: 1080
+            height: 1350
+            alt: "Instagram pull-quote post over a Lua Pele scene photo: ‘A thrilling world-class spectacle,’ Honolulu Magazine."
+            caption: "Lua Pele · Honolulu Magazine"
+
+  - id: soundtrack
+    label: Soundtrack
+    title: The original soundtrack
+    intro: "Launched <em>Cirque du Soleil ʻAuana Original Soundtrack</em>."
+    stats:
+      - { value: 240K+, label: Streams in 10 weeks }
+      - { value: 27%, label: "Apple Music save rate, more than 5x the industry benchmark" }
+    rows:
+      - items:
+          - image: Auana-Soundtrack-Album
+            width: 1000
+            height: 1000
+            alt: "Cover of Cirque du Soleil ʻAuana Original Soundtrack: three performers on a ridge under a sunrise sky, with “Musique/Music Evan Duffy.”"
+            caption: Cirque du Soleil ʻAuana Original Soundtrack — Album artwork
+          - image: Auana-Soundtrack-Window-Cling
+            width: 1600
+            height: 1600
+            alt: "On-site window cling with the album cover, “Soundtrack now streaming on all platforms,” streaming-service badges and a QR code."
+            caption: Window cling — Soundtrack now streaming
+
+  - id: events
+    label: Events
+    title: From Hawaiʻi to Tokyo
+    intro: "A branded table for local events and sales missions at home, and a festival booth in Tokyo. Announced at the Aloha Tokyo Festival in Shibuya that ʻAuana’s opening song was streaming, with all 16 tracks due that summer."
+    stats:
+      - { value: $4.5M+, label: "Japan, the largest international market" }
+      - { value: +15%, label: "Year over year, with the highest average ticket price" }
+    links:
+      - outlet: Travel Watch (Impress)
+        detail: June 2, 2026 · In Japanese
+        url: https://travel.watch.impress.co.jp/docs/news/2113749.html
+      - outlet: HI Now (KHNL)
+        detail: June 2026 · TV segment
+        url: https://www.hinowdaily.com/2026/06/02/hawaii-brings-aloha-spirit-japan-aloha-tokyo-festival/
+    rows:
+      - label: Aloha Tokyo Festival, Shibuya
+        items:
+          - image: Auana-Japan-Aloha-Tokyo-Booth
+            width: 1600
+            height: 1416
+            alt: "Festival-goers crowding the ʻAuana booth at the Aloha Tokyo Festival, with Japanese-language banners."
+            caption: Aloha Tokyo Festival — Booth
+          - image: Auana-Japan-Aloha-Tokyo-Booth-Panels
+            width: 1600
+            height: 1416
+            alt: "The ʻAuana festival booth with panels for each scene and a QR code for tickets."
+            caption: Aloha Tokyo Festival — Scene panels
+          - image: Auana-Japan-Hand-Fan
+            width: 1600
+            height: 1424
+            alt: "A die-cut hand fan with the Naupaka lovers in silhouette and the Japanese ʻAuana logo."
+            caption: Aloha Tokyo Festival — Hand fan
+      - label: Local events and sales missions
+        narrow: true
+        items:
+          - image: Auana-Event-Table
+            width: 1377
+            height: 1600
+            alt: "The ʻAuana table used at local events and sales missions: a sunrise-gradient tablecloth with the Cirque du Soleil ʻAuana wordmark, a kapa sun backdrop, tropical flower arrangements and an OUTRIGGER banner."
+            caption: Event table
+
+  - id: presentations
+    label: Presentations
+    title: Decks for press, partners and the team
+    intro: "Decks for media, partners and the company, from the PR presentation to the 2026 marketing plan and company-wide updates."
+    rows:
+      - label: PR presentation
+        items:
+          - image: Auana-Deck-Show-Title
+            width: 1600
+            height: 900
+            alt: "Title slide: the ʻAuana wordmark on a sunrise gradient with the pronunciation, a-u-ahna, and the meaning, “To wander (off the path), to journey.”"
+            caption: "PR presentation · Title"
+          - image: Auana-Deck-Show-Acts
+            width: 1600
+            height: 900
+            alt: "Act overview slide: eight chapters, each with a show photo, name, story and circus discipline."
+            caption: "PR presentation · Act overview"
+      - items:
+          - image: Auana-Deck-Show-Hina
+            width: 1600
+            height: 900
+            alt: "Full-bleed slide of the Hina act: an aerialist in a hoop above dancers in violet light, “Chapter 3, Hina, Goddess of the Moon.”"
+            caption: "PR presentation · Hina"
+          - image: Auana-Deck-Show-Makeup
+            width: 1600
+            height: 900
+            alt: "Slide of six performers’ stage makeup with “Performers each get 2 hours to do their own hair and makeup every night.”"
+            caption: "PR presentation · Hair and makeup"
+      - label: 2026 marketing plan
+        items:
+          - image: Auana-Deck-Plan-Agenda
+            width: 1600
+            height: 900
+            alt: "Agenda slide beside a rola bola performer above a water bowl, listing the plan’s ten sections."
+            caption: "Marketing plan · Agenda"
+          - image: Auana-Deck-Plan-Guest-Profile
+            width: 1600
+            height: 900
+            alt: "“2025 ʻAuana guest profile” slide with charts of awareness drivers, channels, age, gender and income."
+            caption: "Marketing plan · Guest profile"
+      - items:
+          - image: Auana-Deck-Plan-Flowchart
+            width: 1600
+            height: 900
+            alt: "“2026 paid media flowchart” slide: month-by-month bars for out-of-home, print, search, social, display, CTV and audio."
+            caption: "Marketing plan · Paid media flowchart"
+          - image: Auana-Deck-Plan-Mahalo
+            width: 1600
+            height: 900
+            alt: "Closing slide: “Mahalo” in a pink sun ringed by kapa triangles."
+            caption: "Marketing plan · Mahalo"
+      - label: Company meeting
+        items:
+          - image: Auana-Deck-Meeting-Guests
+            width: 1600
+            height: 900
+            alt: "Company meeting slide in red on black: 422,801 total guests, 772 performances and 11,181 guest surveys around a kapa sunburst."
+            caption: "Company meeting · Guests to date"
+          - image: Auana-Deck-Meeting-Audience
+            width: 1600
+            height: 900
+            alt: "“Who is seeing ʻAuana?” slide in red on black: guest gender, states of origin, kamaʻāina count, median age and household income."
+            caption: "Company meeting · Who is seeing ʻAuana"
+      - items:
+          - image: Auana-Deck-Meeting-Reviews
+            width: 1600
+            height: 900
+            alt: "“What are they saying?” slide in red on black: guest score, recommendation and survey figures beside a word cloud of reviews."
+            caption: "Company meeting · What guests say"
+          - image: Auana-Deck-Meeting-Soundtrack
+            width: 1600
+            height: 900
+            alt: "“ʻAuana Original Soundtrack” slide in red on black: streaming figures beside phone screens showing the album."
+            caption: "Company meeting · Original soundtrack"
+
+  - id: press-kit
+    label: Press kit
+    title: The press kit
+    intro: "Twelve pages for media: the show’s story, the Trickster and the nine acts, the music, the ʻAuana pattern, the set and the creative team."
+    rows:
+      - grid: true
+        items:
+          - image: Auana-Press-Kit-01
+            width: 1236
+            height: 1600
+            alt: "Press kit page 1. Press kit cover: the ʻAuana key visual with the wordmark and “Press kit.”"
+            caption: "01 · Cover"
+          - image: Auana-Press-Kit-02
+            width: 1236
+            height: 1600
+            alt: "Press kit page 2. About the show: show description, schedule, ticket and group-sales information."
+            caption: "02 · About the show"
+          - image: Auana-Press-Kit-03
+            width: 1236
+            height: 1600
+            alt: "Press kit page 3. Acts, stories and characters: the Trickster, Holo Moana and the Golden Age, with circular show photos."
+            caption: "03 · Acts, stories and characters"
+          - image: Auana-Press-Kit-04
+            width: 1236
+            height: 1600
+            alt: "Press kit page 4. The acts: Hina, Nalu, Aloha ʻĀina and Māmala, each with a circular show photo."
+            caption: "04 · The acts, continued"
+      - grid: true
+        items:
+          - image: Auana-Press-Kit-05
+            width: 1236
+            height: 1600
+            alt: "Press kit page 5. The acts: Naupaka, Lua Pele and the Ānuenue finale, each with a circular show photo."
+            caption: "05 · The acts, continued"
+          - image: Auana-Press-Kit-06
+            width: 1236
+            height: 1600
+            alt: "Press kit page 6. The music: the score by Evan Duffy, the live musicians and music fun facts."
+            caption: "06 · The music"
+          - image: Auana-Press-Kit-07
+            width: 1236
+            height: 1600
+            alt: "Press kit page 7. The ʻAuana pattern: the niho motif, its symbolism, and a dancer in a patterned costume."
+            caption: "07 · The ʻAuana pattern"
+          - image: Auana-Press-Kit-08
+            width: 1236
+            height: 1600
+            alt: "Press kit page 8. The set: the custom-built theater and thrust stage, with photos of the stage and seating."
+            caption: "08 · The set"
+      - grid: true
+        items:
+          - image: Auana-Press-Kit-09
+            width: 1236
+            height: 1600
+            alt: "Press kit page 9. Fun facts about the acrobatic equipment, the set and the show, beside circular photos."
+            caption: "09 · Fun facts"
+          - image: Auana-Press-Kit-10
+            width: 1236
+            height: 1600
+            alt: "Press kit page 10. The creative team: show director Neil Dorward and cultural creative producer Aaron J. Salā, Ph.D."
+            caption: "10 · The creative team"
+          - image: Auana-Press-Kit-11
+            width: 1236
+            height: 1600
+            alt: "Press kit page 11. The creative team: Manaola Yap, Kumu Hula Hiwa Vaughan and R. Keao NeSmith, Ph.D."
+            caption: "11 · The creative team, continued"
+          - image: Auana-Press-Kit-12
+            width: 1236
+            height: 1600
+            alt: "Press kit page 12. The creative team: portraits and titles of the wider design and production team."
+            caption: "12 · The creative team, continued"
+
+# ʻAuana pieces shown on the discipline pages (branding.html, print.html, …),
+# above the other clients' work. Rows list image names from the sections
+# above; captions, alt text and flip sides come from there.
+crosslist:
+  branding:
+    intro: "The ʻAuana identity: brand guidelines and key visuals built on kapa, with a color and a pattern for every scene."
+    rows:
+      - items: [Auana-Key-Visual-1-Portrait, Auana-Key-Visual]
+      - items: [Auana-Brand-Printed-Kapa, Auana-Brand-Scene-Palette]
+      - items: [Auana-Brand-Scene-Patterns, Auana-Brand-Scene-Usage]
+  print:
+    intro: "Print for ʻAuana, Cirque du Soleil’s first resident show in Hawaiʻi: consumer and trade ads and sales collateral, all created in-house."
+    rows:
+      - items: [Auana-Print-Travel-Weekly-Cover-Wrap, Auana-Print-Hana-Hou-Spread]
+      - items: [Auana-Print-USA-Today, Auana-Print-Star-Advertiser-Teaser, Auana-Print-Modern-Luxury, Auana-Print-101-Things]
+      - items: [Auana-Print-HI-Luxury, Auana-Print-Hana-Hou, Auana-Kamaaina-FLUX, Auana-Kamaaina-Aloha-Festivals-Guide]
+      - items: [Auana-Kamaaina-Military-Guide, Auana-Sales-Concierge-Deskmat, Auana-Sales-Rack-Card]
+  presentations:
+    intro: "Presentation design for ʻAuana: the PR presentation, the 2026 marketing plan and company updates, all built on the show’s brand."
+    rows:
+      - items: [Auana-Deck-Show-Title, Auana-Deck-Show-Hina, Auana-Deck-Plan-Flowchart]
+      - items: [Auana-Deck-Plan-Guest-Profile, Auana-Deck-Meeting-Guests, Auana-Deck-Meeting-Soundtrack]
+  digital:
+    intro: "Digital for ʻAuana: animated HTML5 and static display, and Instagram posts, reels and stories for launch, kamaʻāina and seasonal campaigns, all created in-house."
+    rows:
+      - motion: true
+      - label: Display
+        items: [Auana-Digital-Skyscraper-Must-See, Auana-Digital-Skyscraper-Valentines, Auana-Digital-Skyscraper-Mothers-Day, Auana-Digital-Skyscraper-Fall-Special]
+      - label: Social
+        items: [Auana-Social-Post-Aloha-Family-Weekends, Auana-Social-Post-Aloha-Fridays, Auana-Social-Post-Keiki-Nights]
+      - grid: true
+        items: [Auana-Social-Quote-01-Holo-Moana, Auana-Social-Quote-03-Hina, Auana-Social-Quote-07-Naupaka, Auana-Social-Quote-08-Pele]
+
+next:
+  label: Next case study
+  title: The Oscars Selfie
+  url: /samsung-oscars.html
+
+press:
+  quote: "Opening night was a thrill, but it was the easy part. The harder work is making it last."
+  source: Pacific Edge Magazine
+  issue: 2026 Hospitality Spotlight
+  url: https://www.pacificedgemagazine.com/ray-mark/
