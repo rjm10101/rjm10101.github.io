@@ -1,0 +1,19 @@
+# Press list on the About and Résumé pages, newest first ("resume" is the Résumé line). The homepage quote lives in home.yml.
+- outlet: Pacific Edge Magazine
+  pull: Interview on building ʻAuana from the ground up
+  detail: 2026 Hospitality Spotlight
+  link_text: Read the interview
+  url: https://www.pacificedgemagazine.com/ray-mark/
+  resume: Hospitality Spotlight interview on building ʻAuana, 2026
+- outlet: HI Now (KHNL)
+  pull: On camera at Aloha Tokyo Festival, Shibuya
+  detail: June 2026
+  link_text: Watch the segment
+  url: https://www.hinowdaily.com/2026/06/02/hawaii-brings-aloha-spirit-japan-aloha-tokyo-festival/
+  resume: TV segment from the Aloha Tokyo Festival, Shibuya, June 2026
+- outlet: Travel Watch (Impress), Japan
+  pull: Japanese travel press, Aloha Tokyo Festival
+  detail: June 2026
+  link_text: Read the article (in Japanese)
+  url: https://travel.watch.impress.co.jp/docs/news/2113749.html
+  resume: Aloha Tokyo Festival coverage, June 2026

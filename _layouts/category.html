@@ -1,0 +1,137 @@
+---
+layout: default
+---
+{%- assign cats = site.data.categories %}
+{%- for c in cats %}{% if c.slug == page.category %}{% assign cat = c %}{% assign idx = forloop.index0 %}{% endif %}{% endfor %}
+{%- assign next_idx = idx | plus: 1 | modulo: cats.size %}
+{%- assign next = cats[next_idx] %}
+{%- assign projects = site.data.projects[page.category] %}
+{%- assign featured = projects | where_exp: "p", "p.featured == true" %}
+{%- assign more = projects | where_exp: "p", "p.featured != true" %}
+{%- assign cl = site.data.auana.crosslist[page.category] %}
+<section class="page-intro container">
+  <p class="label">Portfolio</p>
+  <div class="page-intro-grid">
+    <h1 class="display">{{ cat.name }}</h1>
+    <div class="page-intro-text">
+      <p class="lead">{{ cat.intro | default: cat.blurb }}</p>
+      {%- unless cl %}
+      <a class="text-link" href="{{ '/auana.html' | relative_url }}">Featured case study: ʻAuana <span class="arrow" aria-hidden="true">→</span></a>
+      {%- endunless %}
+    </div>
+  </div>
+  <nav class="category-nav" aria-label="Portfolio">
+    {%- for c in cats %}
+    <a href="{{ '/' | append: c.slug | append: '.html' | relative_url }}"{% if c.slug == page.category %} aria-current="page"{% endif %}>{{ c.name }}</a>
+    {%- endfor %}
+  </nav>
+</section>
+
+{%- if cl %}
+<section class="container case-section case-crosslist" aria-labelledby="auana-title">
+  <header class="section-head">
+    <p class="label">Case study · Cirque du Soleil</p>
+    <h2 id="auana-title">ʻAuana</h2>
+  </header>
+  <div class="case-intro reveal">
+    <p class="lead">{{ cl.intro }}</p>
+    <a class="text-link" href="{{ '/auana.html' | relative_url }}">View the case study <span class="arrow" aria-hidden="true">→</span></a>
+  </div>
+  {%- for row in cl.rows %}
+  {%- if row.motion %}
+  {%- for sec in site.data.auana.sections %}{% for srow in sec.rows %}{% if srow.motion %}{% assign board = srow %}{% endif %}{% endfor %}{% endfor %}
+  {% include case-motion.html units=board.motion label=board.label %}
+  {%- continue %}
+  {%- endif %}
+  {%- assign items = '' | split: '' %}
+  {%- for ref in row.items %}
+  {%- for sec in site.data.auana.sections %}{% for srow in sec.rows %}{% assign match = srow.items | where: 'image', ref %}{% if match.size > 0 %}{% assign items = items | concat: match %}{% endif %}{% endfor %}{% endfor %}
+  {%- endfor %}
+  {% include case-row.html items=items narrow=row.narrow grid=row.grid label=row.label %}
+  {%- endfor %}
+</section>
+<div class="container">
+  <header class="section-head case-others-head">
+    <h2>Other clients</h2>
+  </header>
+</div>
+{%- endif %}
+
+<div class="container projects{% if cl %} projects--after-case{% endif %}">
+  {%- for p in featured %}
+  <article class="project" id="{{ p.image | slugify }}">
+    {%- if p.also %}<div class="project-set">{% endif %}
+    <figure class="frame reveal-img">
+      <img src="{{ '/assets/img/' | append: p.image | append: '.webp' | relative_url }}"
+           srcset="{{ '/assets/img/' | append: p.image | append: '-800.webp' | relative_url }} 800w, {{ '/assets/img/' | append: p.image | append: '.webp' | relative_url }} 1600w"
+           sizes="{% if p.also %}(min-width: 1360px) 608px, (min-width: 600px) 46vw, {% else %}(min-width: 1360px) 1232px, {% endif %}92vw"
+           width="{{ p.width }}" height="{{ p.height }}" alt="{{ p.alt | escape }}"
+           {% if forloop.first %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async"
+           data-zoom data-cursor="Enlarge" data-caption="{% if p.client %}{{ p.client | escape }} — {% endif %}{{ p.title | escape }}">
+    </figure>
+    {%- for a in p.also %}
+    <figure class="frame reveal-img" id="{{ a.image | slugify }}">
+      <img src="{{ '/assets/img/' | append: a.image | append: '.webp' | relative_url }}"
+           srcset="{{ '/assets/img/' | append: a.image | append: '-800.webp' | relative_url }} 800w, {{ '/assets/img/' | append: a.image | append: '.webp' | relative_url }} 1600w"
+           sizes="(min-width: 1360px) 608px, (min-width: 600px) 46vw, 92vw"
+           width="{{ a.width }}" height="{{ a.height }}" alt="{{ a.alt | escape }}" loading="lazy" decoding="async"
+           data-zoom data-cursor="Enlarge" data-caption="{{ p.client | default: p.title | escape }} — {{ a.caption | escape }}">
+    </figure>
+    {%- endfor %}
+    {%- if p.also %}</div>{% endif %}
+    <div class="project-meta reveal">
+      <div class="project-head">
+        {%- if p.client %}<p class="label accent">{{ p.client }}</p>{% endif %}
+        <h2>{{ p.title }}</h2>
+      </div>
+      <div class="project-text">
+        <p>{{ p.summary }}</p>
+        {%- if p.more %}
+        <details>
+          <summary>Read more</summary>
+          <p>{{ p.more }}</p>
+        </details>
+        {%- endif %}
+        {%- if p.case %}
+        <a class="text-link" href="{{ p.case | relative_url }}">View the case study <span class="arrow" aria-hidden="true">→</span></a>
+        {%- endif %}
+      </div>
+    </div>
+  </article>
+  {%- endfor %}
+</div>
+
+{%- if more.size > 0 %}
+<section class="container more-work" aria-labelledby="more-title">
+  <header class="section-head">
+    <h2 id="more-title">More work</h2>
+  </header>
+  <ul class="more-grid">
+    {%- for p in more %}
+    <li class="more-item reveal" id="{{ p.image | slugify }}">
+      <div class="frame">
+        <img src="{{ '/assets/img/' | append: p.image | append: '-800.webp' | relative_url }}"
+             srcset="{{ '/assets/img/' | append: p.image | append: '-800.webp' | relative_url }} 800w, {{ '/assets/img/' | append: p.image | append: '.webp' | relative_url }} 1600w"
+             sizes="(min-width: 900px) 30vw, (min-width: 600px) 46vw, 92vw"
+             width="{{ p.width }}" height="{{ p.height }}" alt="{{ p.alt | escape }}" loading="lazy" decoding="async"
+             data-zoom data-full="{{ '/assets/img/' | append: p.image | append: '.webp' | relative_url }}" data-cursor="Enlarge"
+             data-caption="{% if p.client %}{{ p.client | escape }} — {% endif %}{{ p.title | escape }}">
+      </div>
+      {%- if p.client %}<p class="label accent">{{ p.client }}</p>{% endif %}
+      <h3>{{ p.title }}</h3>
+      <details>
+        <summary>About this project</summary>
+        <p>{{ p.summary }}{% if p.more %} {{ p.more }}{% endif %}</p>
+      </details>
+    </li>
+    {%- endfor %}
+  </ul>
+</section>
+{%- endif %}
+
+<nav class="container next-category" aria-label="Up next">
+  <a href="{{ '/' | append: next.slug | append: '.html' | relative_url }}" data-cursor="Next">
+    <span class="label">Up next</span>
+    <span class="next-title">{{ next.name }} <span class="arrow" aria-hidden="true">→</span></span>
+  </a>
+</nav>
