@@ -1,0 +1,198 @@
+# Samsung Oscars Selfie case study (samsung-oscars.html), 86th Academy Awards,
+# March 2, 2014. Figures come from the Samsung/Starcom campaign wrap-up and
+# Cannes Lions entry; no media spend or valuation figures. Same structure as
+# _data/auana.yml.
+
+hero:
+  label: Case study · Samsung
+  title: The Oscars Selfie
+  lead: "The first product integration in Oscars history put a Samsung Galaxy Note 3 in Ellen DeGeneres’ hands, live on ABC. Then she took a selfie."
+  role: Associate Media Director, Starcom<br>2014
+  image: Oscars-Selfie
+  width: 1444
+  height: 812
+  alt: "Ellen DeGeneres’ Oscars selfie: Bradley Cooper holds the phone as Ellen, Jennifer Lawrence, Meryl Streep, Julia Roberts, Kevin Spacey, Brad Pitt, Angelina Jolie, Lupita Nyong’o, Jared Leto, and Channing Tatum crowd into the frame."
+  caption: The Oscars selfie, March 2, 2014
+
+overview:
+  title: Real moments in a scripted show
+  meta:
+    - { label: Role, value: "Associate Media Director, Starcom MediaVest Group" }
+    - { label: Client, value: Samsung Mobile USA }
+    - { label: Event, value: "86th Academy Awards, ABC, March 2, 2014" }
+    - { label: Partners, value: "ABC, Twitter, E!, The Hollywood Reporter" }
+  lead: "Drove paid media for the first-ever Oscars product integration, on Samsung Mobile at Starcom."
+  body:
+    - "Research showed two audiences watching two ways. The broadcast audience skews older, with a median age of 52. Samsung’s Millennial target followed the Oscars on social media, with TV playing a supporting role. They were also pushing back against polished, perfect images in favor of real moments, captured with humor and spontaneity."
+    - "So the plan had to work on both screens and feel unplanned. On a night when everything is scripted, nothing is more real than a selfie."
+    - "It worked with exactly the people Samsung needed: after the Oscars, its share of female smartphone users grew at more than twice the rate of its top competitor."
+
+results:
+  stats:
+    - { value: 43.7M, label: "Viewers, the most-watched Oscars in 14 years" }
+    - { value: 3.4M+, label: "Retweets, the most ever at the time" }
+    - { value: $730M+, label: "Earned media value in the first 10 days" }
+    - { value: +18%, label: "Likelihood to recommend Samsung, three weeks later" }
+    - { value: +42%, label: Positive social sentiment }
+    - { value: Cannes Lions, label: "Gold & Silver, 2014" }
+  cols: 3
+  note: "Results from Samsung’s March 2014 campaign wrap-up and its Cannes Lions and Effie entries. The selfie earned 2.1B impressions."
+
+sections:
+  - id: on-air
+    label: On air
+    title: Spontaneity takes a lot of work
+    intro: "It started six months out, in upfront negotiations with ABC for full phone and half tablet category exclusivity. Research and planning followed two months before the show, then filming and training the week of: the Note 3 was set up so Ellen could use it comfortably on live TV. On the night she used it on stage and in the audience for nearly three minutes of screen time, then handed it to Bradley Cooper for a selfie with 12 A-list celebrities. Her tweet, “If only Bradley’s arm was longer. Best photo ever. #oscars,” beat the previous retweet record within 34 minutes and briefly took Twitter down."
+    rows:
+      - items:
+          - image: Oscars-Ellen-Note-3
+            width: 1600
+            height: 1140
+            alt: "Ellen DeGeneres on the Oscars stage holding up a white Samsung Galaxy Note 3 to take a photo."
+            caption: Ellen with the Galaxy Note 3 on stage
+          - image: Oscars-Selfie-Taken
+            width: 960
+            height: 528
+            alt: "Bradley Cooper holds the Galaxy Note 3 at arm’s length as Ellen and the celebrities around her squeeze into the shot."
+            caption: The selfie being taken
+
+  - id: backstage
+    label: Backstage
+    title: Content made on the night
+    intro: "The idea reached past the broadcast. With Twitter and ABC, a Galaxy Note 10.1 became a “Twitter Mirror” in the Oscars green room, where relaxed celebrities took selfies, signed them with the S Pen, and tweeted them out. An interactive multimedia wall in the Architectural Digest Green Room put Samsung products to work there too."
+    rows:
+      - items:
+          - image: Oscars-Green-Room-Wall
+            width: 943
+            height: 629
+            alt: "The Architectural Digest Green Room at the Oscars: a wall of screens showing the ceremony beside a gold Oscar statue."
+            caption: Architectural Digest Green Room · Multimedia wall
+          - image: Oscars-Twitter-Mirror
+            width: 585
+            height: 392
+            alt: "A tweet from @TheAcademy, promoted by Samsung Mobile US: “Backstage at the #Oscars in the #ArchDigestGreenRoom with Jason Sudeikis,” with his Twitter Mirror photo."
+            caption: Twitter Mirror · A tweet from the green room
+
+  - id: media
+    label: Media
+    title: Every screen, one message
+    intro: "Around the moment, Samsung showed up wherever the audience was watching: five and a half minutes of “One Samsung” TV in the broadcast plus a pre-show spot, E! red-carpet integrations, takeovers of ABC.com, Oscars.com, and E! Online, a promoted #TheNextBigThing trend on Twitter, and a Facebook mobile reach block. The TV spots showed Samsung’s phone, tablet, TV, and wearable together for the first time."
+    stats:
+      - { value: 80.5M, label: "Social impressions, 121% of goal" }
+      - { value: 47.7M, label: "Impressions from the #TheNextBigThing Twitter trend" }
+      - { value: 64.6M, label: Digital impressions }
+      - { value: 58%, label: Share of all Oscars brand mentions }
+    cols: 3
+    rows:
+      - label: One Samsung · TV
+        items:
+          - image: Oscars-TV-1
+            width: 1600
+            height: 824
+            alt: "Still from a One Samsung TV spot: friends gathered at night, one wearing a Galaxy Gear smartwatch."
+            caption: One Samsung · TV spot
+          - image: Oscars-TV-2
+            width: 1447
+            height: 873
+            alt: "Still from a One Samsung TV spot: hands holding a Galaxy phone showing a bright, colorful video."
+            caption: One Samsung · TV spot
+      - items:
+          - image: Oscars-TV-3
+            width: 1379
+            height: 901
+            alt: "Still from a One Samsung TV spot: a recipe handwritten with the S Pen on a Galaxy tablet."
+            caption: One Samsung · TV spot
+          - image: Oscars-TV-4
+            width: 1538
+            height: 876
+            alt: "Still from a One Samsung TV spot: three kids huddled around a phone screen, faces lit by its glow."
+            caption: One Samsung · TV spot
+      - label: Digital
+        items:
+          - image: Oscars-ABC-Backstage
+            width: 1600
+            height: 967
+            alt: "Oscars.com “Oscars Backstage” page presented by Samsung Galaxy, with Galaxy S5 ads alongside the content."
+            caption: Oscars.com · Oscars Backstage, presented by Samsung Galaxy
+          - image: Oscars-E-Online
+            width: 1046
+            height: 625
+            alt: "E! Online’s Academy Awards red-carpet coverage with a Samsung takeover across the page."
+            caption: E! Online · Red-carpet takeover
+
+  - id: influencers
+    label: Influencers
+    title: The week before
+    intro: "Influencer events built the story before the show: a Galaxy selfie station at The Hollywood Reporter’s Pret-A-Reporter party, a trivia game on the Galaxy Note Pro at the Motion Picture & Television Fund’s Night Before party, and Oscar viewing parties in five private homes across Los Angeles."
+    stats:
+      - { value: "1,355", label: Influencer interactions }
+      - { value: "68", label: One-to-one meetings }
+    rows:
+      - items:
+          - image: Oscars-Selfie-Station
+            width: 1000
+            height: 667
+            alt: "Two guests take a selfie with a Galaxy tablet in front of a red neon heart and marquee letters at the Pret-A-Reporter party."
+            caption: Pret-A-Reporter · Galaxy selfie station
+          - image: Oscars-Perfect-Selfie
+            width: 1000
+            height: 667
+            alt: "A Galaxy tablet on a red curtain showing tips on how to take the perfect selfie."
+            caption: Pret-A-Reporter · How to take the perfect selfie
+          - image: Oscars-Viewing-Party
+            width: 1600
+            height: 1067
+            alt: "A living room set up for an Oscars viewing party, with Samsung TVs and tablets showing the red carpet."
+            caption: Oscar viewing party
+
+  - id: day-after
+    label: The day after
+    title: Keeping the moment going
+    intro: "The next day, Ellen’s live post-Oscars show gave away 320 Galaxy Note 3s to the studio audience and became the highest-rated episode in the show’s 11-year history. Samsung marked the record by donating $3 million, $1.5 million each to St. Jude Children’s Research Hospital and the Humane Society of the United States. The Academy later added the selfie Note 3 to its collection."
+    rows:
+      - items:
+          - image: Oscars-Ellen-Show
+            width: 1332
+            height: 750
+            alt: "The Ellen DeGeneres Show set with a large Samsung Galaxy sign behind Ellen’s chair."
+            caption: The Ellen DeGeneres Show · Live post-Oscars special
+          - image: Oscars-St-Jude
+            width: 406
+            height: 550
+            alt: "A tweet from St. Jude thanking Ellen and Samsung for donating the Oscars selfie retweet proceeds, with a group photo of patients."
+            caption: St. Jude · A thank-you selfie
+
+  - id: press
+    label: Press
+    title: The night’s biggest winner
+    intro: "Coverage ran from the Today show to The New York Times, The Wall Street Journal, Adweek, People, and Bloomberg, and most of it put Samsung at the center of the story."
+    stats:
+      - { value: 267M, label: "PR impressions across 100 media placements" }
+    rows:
+      - grid: true
+        items:
+          - image: Oscars-Press-Variety
+            width: 903
+            height: 1388
+            alt: "Variety article, “5 Brands That Deserve an Oscar for Marketing,” led by a photo of Ellen holding the Galaxy Note 3."
+            caption: Variety
+          - image: Oscars-Press-Adweek
+            width: 851
+            height: 1464
+            alt: "Adweek article, “Ellen’s Selfie Scores Oscar Gold for Samsung.”"
+            caption: Adweek
+          - image: Oscars-Press-Verge
+            width: 900
+            height: 1600
+            alt: "The Verge on mobile: “Ellen earns the most retweets ever for her Oscars tweet.”"
+            caption: The Verge
+          - image: Oscars-Press-LA-Times
+            width: 864
+            height: 1110
+            alt: "Los Angeles Times clipping, “For Samsung, this was far better than an ad,” with a photo of Ellen and the phone."
+            caption: Los Angeles Times
+
+next:
+  label: Next case study
+  title: Wallhuggers
+  url: /wallhuggers.html

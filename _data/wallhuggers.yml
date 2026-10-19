@@ -1,0 +1,109 @@
+# Samsung Wallhuggers case study (wallhuggers.html), Galaxy S5, August 2014.
+# Airports, timing and tagline from 2014 press coverage (linked in the press
+# section); results from the earlier Samsung page. No media spend figures.
+# Same structure as _data/oscars.yml.
+
+hero:
+  label: Case study · Samsung
+  title: Wallhuggers
+  lead: "Travelers were already stuck on the airport floor, next to an outlet, waiting for a charge. So Samsung put its ad on the outlet."
+  role: Associate Media Director, Starcom<br>2014
+  image: Samsung-Wallhuggers-Hero
+  width: 1600
+  height: 766
+  alt: "Four travelers sitting on an airport floor along a grey wall, each charging a phone at an outlet framed by a Samsung Galaxy S5 decal."
+  caption: Wallhuggers, Galaxy S5
+
+overview:
+  title: A new medium, found at the outlet
+  meta:
+    - { label: Role, value: "Associate Media Director, Starcom MediaVest Group" }
+    - { label: Client, value: Samsung Mobile USA }
+    - { label: Product, value: Galaxy S5 }
+    - { label: Airports, value: "JFK, Newark, O’Hare, and Midway" }
+    - { label: Dates, value: August 2014 }
+  lead: "Pioneered a new out-of-home format in U.S. airports for the Galaxy S5."
+  body:
+    - "When an iPhone software update made battery drain worse, Samsung’s “Wall Huggers” TV spots poked fun at iPhone owners camped next to outlets. The Galaxy S5 had the answer in Ultra Power Saving Mode, which stretches a low battery by switching the screen to black and white and shutting down everything but the essentials."
+    - "Nowhere was the problem more visible than at the airport, where travelers sit on the floor by any outlet they can find. So the outlet itself became the ad."
+
+results:
+  stats:
+    - { value: +4 pts, label: Brand awareness }
+    - { value: −3 pts, label: Competitor brand preference }
+    - { value: "416", label: "Placements across 15 terminals" }
+    - { value: 27M, label: Impressions }
+    - { value: 30+, label: Press articles }
+    - { value: "4", label: "Airports, with deals cut directly" }
+  cols: 3
+
+sections:
+  - id: idea
+    label: The idea
+    title: The power to be anywhere but here
+    intro: "Decals framed the power sockets on pillars, walls, and baseboards, with one line for whoever was plugged in: “So you have the power to be anywhere but here.” It pointed to Ultra Power Saving Mode at the exact moment a dying battery was the problem."
+    rows:
+      - items:
+          - image: Samsung-Wallhuggers-Gate
+            width: 1600
+            height: 1150
+            alt: "A traveler at an airport gate looks at her phone, plugged into an outlet on a column under a Galaxy S5 decal reading “So you have the power to be anywhere but here.”"
+            caption: At the gate
+          - image: Samsung-Wallhuggers-Pink
+            width: 1280
+            height: 1017
+            alt: "A traveler in a neck pillow sits on the floor texting, her phone plugged into a Galaxy S5 outlet decal on a steel pillar."
+            caption: On the floor by a pillar
+
+  - id: placements
+    label: Placements
+    title: 416 outlets in two weeks
+    intro: "There was no off-the-shelf way to buy an airport power outlet, so the deals were cut directly with all four airports. In August 2014, 416 placements went up across 15 terminals at JFK, Newark, O’Hare, and Midway, all within two weeks."
+    rows:
+      - items:
+          - image: Samsung-Wallhuggers-Pillar-Seated
+            width: 625
+            height: 488
+            alt: "A traveler sits on the terminal floor charging a phone at a Galaxy S5 outlet decal on a pillar."
+            caption: Pillar
+          - image: Samsung-Wallhuggers-Pillar-Crouching
+            width: 625
+            height: 488
+            alt: "A traveler crouches to charge a phone at a Galaxy S5 outlet decal on a steel pillar."
+            caption: Pillar
+          - image: Samsung-Wallhuggers-Luggage
+            width: 625
+            height: 488
+            alt: "A traveler stands with luggage, charging devices at a black Galaxy S5 outlet decal on a terminal wall."
+            caption: Wall
+          - image: Samsung-Wallhuggers-Floor-Pair
+            width: 625
+            height: 488
+            alt: "Two travelers sit on the floor sharing a Galaxy S5 outlet decal at the base of a terminal wall."
+            caption: Baseboard
+
+  - id: press
+    label: Press
+    title: The joke got picked up
+    intro: "Tech press covered the airport ads within days, from Engadget and MacRumors to Cult of Mac, Android Central, and 9to5Google."
+    links:
+      - outlet: Engadget
+        detail: Aug 14, 2014
+        url: https://www.engadget.com/2014-08-14-samsung-rolls-out-anti-iphone-wall-huggers-ad-campaign-to-airp.html
+      - outlet: MacRumors
+        detail: Aug 13, 2014
+        url: https://macrumors.com/2014/08/13/samsung-anti-apple-airport-ad
+      - outlet: Cult of Mac
+        detail: Aug 2014
+        url: https://www.cultofmac.com/291117/samsungs-new-ads-mock-iphone-wall-huggers-real-life/
+      - outlet: 9to5Google
+        detail: Aug 13, 2014
+        url: https://9to5google.com/2014/08/13/samsung-trolls-iphone-toting-wall-huggers-at-power-outlets-in-major-airports/
+      - outlet: Android Central
+        detail: Aug 2014
+        url: https://androidcentral.com/samsung-mocks-iphone-wall-huggers-galaxy-s5-airport-ad-campaign
+
+next:
+  label: Next case study
+  title: Cannable
+  url: /cannable.html

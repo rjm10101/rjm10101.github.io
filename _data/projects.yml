@@ -1,0 +1,672 @@
+# Portfolio projects, grouped by category page. Each image needs
+# assets/img/<image>.webp (1600px wide) and <image>-800.webp.
+# "featured: true" projects are shown large at the top of their page, in this
+# order; the rest appear in the compact "More work" grid.
+branding:
+- title: Greenbrier Holdings
+  image: Logo-Greenbrier-Hldgs
+  width: 1600
+  height: 900
+  alt: Greenbrier Holdings
+  summary: "Greenbrier Holdings grew out of four generations of family farming before moving into cannabis. The corporate mark had to honor that history and still read as a serious operator."
+  more: "Four bands of color run through the G, one for each generation on the land. It’s a quiet detail that tells the family story, set in a simple, solid shape that holds up across the company’s cultivation, manufacturing, and distribution businesses."
+  featured: true
+- title: Hannah Industries
+  image: Logo-Hannah
+  width: 1600
+  height: 900
+  alt: Hannah Industries
+  summary: "Hannah Industries is a tier 2 cannabis producer in Washington that wanted to signal its industry without putting a leaf in the logo."
+  more: "The mark is two interlocking green shapes, and the negative space between them forms the H. Color does the rest of the hinting: a restrained green that suggests the plant, paired with clean, modern type. The understated approach suits the buyers and partners a producer sells to, who want to deal with a company, not a novelty brand. A brand guidelines booklet for partners set the rules for logo use, color, and typography, so the brand stayed consistent even when partners produced their own materials."
+  featured: true
+  also:
+    - image: Print-Hannah-BG
+      width: 1600
+      height: 900
+      alt: Hannah Industries – Brand Guidelines
+      caption: Brand guidelines
+- title: Cannable
+  image: Cannable-Logos
+  width: 1600
+  height: 900
+  alt: "Two Cannable logos: the delivery mark with a car shape and the store mark with speed lines."
+  summary: "Cannable needed two marks from day one: one for its delivery service and one for its store in Parlier, California. Both had to say fast and friendly at a glance."
+  more: "The wordmark is set in heavy, rounded lowercase in a bright, confident blue. On the delivery mark, a little car rides on the first letters, with the round c and a as its wheels and speed lines trailing behind. The store mark keeps the wordmark and swaps the car for slanted speed lines, so the two read as one family. The system carries through the logo animation, stationery, and merch."
+  case: /cannable.html
+  featured: true
+- title: Satori Salvation
+  image: Logo-Satori-Salvation
+  width: 1600
+  height: 900
+  alt: Satori Salvation
+  summary: "Satori Salvation sells high-potency CBD in two directions: products that lift you up and products that settle you down. The logo had to hold both, and look expensive doing it."
+  more: "Purple carries the energy and blue the calm. A woven border wraps the mark like a path being walked, a nod to satori, the Zen idea of sudden enlightenment, and a signal that this is a luxury brand."
+- title: New England Hemp Farm
+  image: Logo-NEHF
+  width: 1600
+  height: 900
+  alt: New England Hemp Farm
+  summary: "New England Hemp Farm makes CBD in a converted old firehouse in Connecticut, and the building is the brand’s best story."
+  more: "The mark puts the firehouse in green above heavy block lettering, with a hemp leaf and the founding year below. In a crowded, look-alike CBD market, it gives the brand something most competitors don’t have: a real place and a story customers can repeat."
+- title: Laughing Buddha
+  image: Logo-Laughing-Buddha
+  width: 1600
+  height: 900
+  alt: Laughing Buddha
+  summary: "Laughing Buddha sells cannabis to a young, urban crowd in Washington. The logo needed to feel friendly and a little rebellious at the same time."
+  more: "A grinning Buddha, drawn with the energy of street art, does both jobs. It’s welcoming enough for first-time shoppers and has enough edge to stand out in a market full of green leaves and serious type."
+- title: 788 Technologies
+  image: Logo-788-Technologies
+  width: 1600
+  height: 900
+  alt: 788 Technologies
+  summary: "788 Technologies combines lab science with CBD production. Its logo had to show both sides: the relief people feel and the science behind it."
+  more: "A stylized human figure sits at the center, ringed by simplified molecular structures. The person comes first and the science surrounds them, which is how the company wants to be understood."
+- title: Adaptiiv Grow Technologies
+  image: Logo-Adaptiiv
+  width: 1600
+  height: 900
+  alt: Adaptiiv Grow Technologies
+  summary: "Adaptiiv makes cultivation systems for indoor growers, and cooling is the heart of its technology."
+  more: "A fan is built into the letter A, so the logo explains the product at a glance. It reads as an engineering company first, which suits a brand selling equipment to growers who care about efficiency and sustainability."
+- title: Bison & Rose
+  image: Logo-Bison-Rose
+  width: 1600
+  height: 900
+  alt: Bison & Rose
+  summary: "Bison & Rose is an upscale CBD brand from Oklahoma that wanted to wear its home state proudly without looking rustic."
+  more: "The bison and the rose are both Oklahoma state symbols. Paired in a refined lockup, they give the brand local pride and a luxury finish at once, and set it apart from generic wellness brands on the same shelf."
+- title: Budtender Nation
+  image: Logo-Budtender-Nation
+  width: 1600
+  height: 900
+  alt: Budtender Nation
+  summary: "Budtender Nation was built as a social network for the people behind the dispensary counter. Its logo had to feel optimistic about where the industry was going."
+  more: "A cannabis leaf rises over the horizon like a sunrise, a simple picture of new opportunity for a growing profession. It gives the community something to rally around, and it holds up at small sizes, which matters for a brand that lives mostly online."
+- title: Happy Camper
+  image: Logo-Happy-Camper
+  width: 1600
+  height: 900
+  alt: Happy Camper
+  summary: "Happy Camper’s brand is built on the outdoors and on taking care of it, from compostable packaging to its love of national parks."
+  more: "The retro logo borrows from vintage park signage, in earthy colors and old-school graphics. It feels nostalgic and friendly, and it tells eco-minded shoppers what the brand stands for before they read a word."
+- title: Red Dirt
+  image: Logo-Red-Dirt
+  width: 1600
+  height: 900
+  alt: Red Dirt
+  summary: "Red Dirt grows its cannabis under the Oklahoma sun and wanted a logo with some heritage to it."
+  more: "A sunburst and gold tones point straight at the sungrown process, and vintage lettering gives the brand a rustic, established feel. It reads as authentic in a market where many brands look brand new."
+- title: Brand Guidelines
+  client: LeEco
+  image: Presentation-LeEco-BG
+  width: 1600
+  height: 900
+  alt: LeEco – Brand Guidelines
+  summary: "LeEco’s U.S. consumer products division needed brand guidelines it could hand to any team or partner."
+  more: "The guidelines set the rules for how the brand appeared across marketing and product interfaces. As LeEco expanded into new markets, they kept the identity consistent and saved teams from reinventing the basics."
+- title: Brand Guidelines
+  client: Simplifya
+  image: Print-Simplifya-BG
+  width: 1600
+  height: 900
+  alt: Simplifya – Brand Guidelines
+  summary: "Simplifya’s brand guidelines booklet helps partners use the brand correctly."
+  more: "It covers logo usage, color, and typography with clear dos and don’ts. Partners get a single reference they can check in seconds, and Simplifya gets consistent representation wherever its name appears, which matters for a compliance company whose whole pitch is getting the details right."
+
+packaging:
+- title: Satori Salvation
+  image: Packaging-Satori-Salvation
+  width: 1600
+  height: 900
+  alt: Satori Salvation Packaging
+  summary: "Satori Salvation launched as a luxury CBD line, and the packaging had to justify the price before anyone opened a box."
+  more: "Deep jewel tones and glossy rose-gold accents set the premium tone. The woven lines from the logo grow into flowing, intertwined patterns along the base of each label, carrying the brand’s idea of a path toward enlightenment across the whole range."
+  featured: true
+- title: Happy Camper
+  image: Packaging-Happy-Camper
+  width: 1600
+  height: 900
+  alt: Happy Camper Packaging
+  summary: "Happy Camper’s Fire Sticks pre-rolls needed packaging that was compostable and recyclable, met Washington’s standards, and still looked good enough to pick up."
+  more: "Each variety got its own time of day: Sunrise for sativa, Noon for hybrid, and Sunset for indica. The artwork tells shoppers what they’re buying at a glance and makes the line look like one family. Sustainable materials and strong design, without trading one for the other."
+  featured: true
+- title: New England Hemp Farm
+  image: Packaging-NEHF
+  width: 1600
+  height: 900
+  alt: New England Hemp Farm Packaging
+  summary: "New England Hemp Farm wanted packaging that felt handmade and local, in keeping with a brand that started in an old firehouse."
+  more: "Traditional sketch-style artwork of the hemp plant gives every label texture and a crafted feel. In a category where shoppers care about where a product comes from and what’s in it, the packaging starts building trust before anyone reads the label."
+  featured: true
+- title: Red Dirt
+  image: Packaging-Red-Dirt
+  width: 1600
+  height: 900
+  alt: Red Dirt Packaging
+  summary: "Red Dirt’s cannabis is grown outdoors in natural sunlight, and the packaging needed to make that the first thing you notice."
+  more: "Vintage styling, sunburst motifs, and earthy colors carry the logo’s heritage onto the shelf. It makes Red Dirt look grown rather than manufactured, which is the whole point for shoppers who want something closer to nature."
+  featured: true
+- title: Bison & Rose
+  image: Packaging-Bison-Rose
+  width: 1600
+  height: 900
+  alt: Bison & Rose Packaging
+  summary: "Bison & Rose launched metered-dose inhalers in two strengths, Balanced and Intense, and the packaging had to make the difference obvious."
+  more: "Each SKU got its own color scheme and artwork, so customers can pick the right strength without reading the fine print. The finishes keep the brand’s luxury feel, so clarity never comes at the cost of looking premium."
+  featured: true
+- title: Laughing Buddha
+  image: Packaging-Laughing-Buddha
+  width: 1600
+  height: 900
+  alt: Laughing Buddha Packaging
+  summary: "Laughing Buddha carried the street-art style of its logo onto custom glass jars."
+  more: "The labels feature a detailed street map of Seattle under gold foil: a little city pride with a little shine. The jars stand out on a dispensary shelf and are nice enough to keep, which keeps the brand in front of customers long after the sale."
+  featured: true
+presentations:
+- title: National Sales Meeting Presentation
+  client: Samsung
+  image: Presentation-Samsung
+  width: 1600
+  height: 900
+  alt: Samsung – National Sales Meeting Presentation
+  summary: "Samsung’s CMO needed a keynote for the U.S. National Sales Meeting that would rally the sales force around new strategies and goals."
+  more: "The deck was built to be interactive and pulled in real-time data, so the numbers on screen were current. Big moments, clear targets, and very little reading: it was designed to be performed in a room, not read on a laptop."
+  featured: true
+- title: Priceless Boston Media Planning Presentation
+  client: Mastercard
+  image: Presentation-Mastercard
+  width: 1600
+  height: 900
+  alt: Mastercard – Priceless Boston Media Planning Presentation
+  summary: "Mastercard’s Priceless Boston campaign needed a media plan the client could grasp quickly, even though it rested on a lot of research."
+  more: "The presentation laid out where and how to reach the right audiences across Boston, and turned dense research into a series of detailed infographics. Each one answered a single question, so the strategy could be followed slide by slide."
+  featured: true
+- title: Mixing Live in Dolby Atmos Presentation
+  client: Dolby
+  image: Presentation-Dolby-Atmos
+  width: 1600
+  height: 900
+  alt: Dolby Atmos Presentation
+  summary: "Dolby needed to show a specialist audience what Atmos can do for live mixing: the capabilities, the proof points, and the technical specs."
+  more: "Custom graphics were drawn from Dolby’s own technical documentation, so complex mixing concepts became visuals engineers could follow at a glance. The goal was a deck that respected the audience’s expertise and still made the case for Atmos."
+  featured: true
+- title: GDC 2021 Presentation
+  client: Dolby
+  image: Presentation-Dolby-GDC
+  width: 1600
+  height: 900
+  alt: Dolby GDC 2021 Presentation
+  summary: "At GDC 2021, Dolby wanted to show game developers how Dolby Vision fits into their pipeline and what it does for players."
+  more: "Custom graphics and infographics, built from technical documentation, walked developers through the integration and the payoff: richer visuals and deeper immersion. Speaking to developers in their own terms helped position Dolby as a real partner in gaming, beyond film and music."
+  featured: true
+- title: Rakuten Advertising Sales Presentation
+  client: Rakuten
+  image: Presentation-Rakuten
+  width: 1600
+  height: 900
+  alt: Rakuten Advertising Sales Presentation
+  summary: "Rakuten Advertising offers a long list of services and data products, and its sales team needed one deck that could explain all of it."
+  more: "The presentation organized the offering into a clear story, from capabilities to data solutions, so reps could pull the right section for each prospect. It gave the team a consistent pitch and made a broad, complex portfolio feel easy to buy."
+  featured: true
+- title: Launch Keynote Address
+  client: LeEco
+  image: Presentation-LeEco
+  width: 1600
+  height: 900
+  alt: LeEco – Launch Keynote Address
+  summary: "LeEco used this keynote to introduce its consumer products to the U.S. market."
+  more: "Presented live, it covered the full product range, how LeEco compared with its competitors, and where the company was headed next. The job was to make an unfamiliar brand feel like a serious, innovative player from day one."
+  featured: true
+- title: Artist One-sheeters
+  client: RCA
+  image: Presentation-RCA
+  width: 1600
+  height: 900
+  alt: RCA Artist One-sheeters
+  summary: "RCA’s sales teams needed a fast way to pitch artists to media and industry partners."
+  more: "Each digital one-sheeter pulled a short bio, key stats, and recent press onto a single page. Reps could see an artist’s story and momentum in under a minute, and share it just as fast."
+- title: Investor Presentation
+  client: Hannah Industries
+  image: Presentation-Hannah-Industries
+  width: 1600
+  height: 900
+  alt: Hannah Industries – Investor Presentation
+  summary: "Hannah Industries built this presentation to win over potential investors."
+  more: "It covered the company’s history, how it operates, and its financials, in an order designed to build confidence step by step. In a cannabis market investors often see as risky, the deck made the case for stability as much as growth."
+- title: Investor Presentation
+  client: Arbor Pacific
+  image: Presentation-Arbor-Pacific
+  width: 1600
+  height: 900
+  alt: Arbor Pacific Investor Presentation
+  summary: "Arbor Pacific needed an investor presentation that explained where the company came from, where it stood in the market, and what funding it needed."
+  more: "Clear statistics and company overviews made the case for stability and growth potential, and the ask came at the end, once the story had been told. The aim was a deck investors could follow without a walkthrough."
+- title: Investor Presentation
+  client: Truth Alone Clothing
+  image: Presentation-Truth-Alone
+  width: 1600
+  height: 900
+  alt: Truth Alone Clothing Investor Presentation
+  summary: "Truth Alone Clothing wanted investors to see a fashion brand with a conscience and a business plan."
+  more: "The deck led with the company’s sustainable practices, then moved through operations, financials, and the funding request. Putting the values first gave investors a reason to care before they reached the numbers."
+- title: Sales Presentation
+  client: Hunter & Esquire
+  image: Presentation-Hunter-Esquire
+  width: 1600
+  height: 900
+  alt: Hunter & Esquire – Sales Presentation
+  summary: "Hunter & Esquire recruits legal talent for the cannabis industry, a niche few people fully understand."
+  more: "This presentation explained the firm’s expertise and approach in plain terms, so prospective clients could see what made it different. It became a go-to tool for introductions and new business."
+- title: Presentation Template
+  client: Simplifya
+  image: Presentation-Simplifya
+  width: 1600
+  height: 900
+  alt: Simplifya – Presentation Template
+  summary: "Simplifya needed a presentation template that kept every deck on brand, no matter who built it."
+  more: "The template turned the brand’s visual elements into ready-made layouts for common slide types. Teams could work faster, and every presentation looked like it came from the same company."
+- title: Sales Presentation
+  client: Xtraction Services
+  image: Presentation-XS
+  width: 1600
+  height: 900
+  alt: Xtraction Services – Sales Presentation
+  summary: "Xtraction Services sells manufacturing equipment to the extraction industry, where buyers want specs before a sales pitch."
+  more: "This technical deck leads with specifications and operational advantages, laid out clearly enough for the engineers evaluating the equipment and the people approving the purchase. Leading with facts builds credibility with a technical audience, and the clear structure lets the sales team walk through complex equipment without losing the room."
+print:
+- title: Grammy Awards Program Full Page Spread
+  client: Dolby
+  image: Print-Grammys-Program-Spread
+  width: 1600
+  height: 900
+  alt: Dolby Grammy Awards Program
+  summary: "For the 63rd Grammy Awards program, Dolby took a full page to congratulate the nominees and winners."
+  more: "A band is silhouetted in theatrical light and haze, with the Dolby logo glowing behind them. The vivid palette stops a reader mid-flip, and the image puts Dolby where it wants to be for a music-industry audience: inside the sound of the night’s best performances."
+  featured: true
+- title: Cinema Trade Print
+  client: Dolby
+  image: Print-Dolby-Magazine
+  width: 1600
+  height: 900
+  alt: Dolby – Cinema Trade Print
+  summary: "Two full-page trade ads made the case to cinema owners and operators for upgrading to Dolby Cinema."
+  more: "Instead of equipment, the ads show audiences, faces lit by the screen, clearly caught up in the film. The message to operators is simple: this is what your customers will feel. Behind the emotion sits the business case, a competitive edge and a return on the investment, which is what a B2B buyer signs off on."
+  featured: true
+- title: Screening Room Spec Sheets
+  client: Dolby
+  image: Print-Dolby-NY-Specs
+  width: 1600
+  height: 900
+  alt: Dolby – Screening Room Spec Sheets
+  summary: "Spec sheets for Dolby’s screening rooms in New York gave prospective clients the technical detail they needed to book with confidence."
+  more: "Each sheet lays out a room’s specifications and capabilities in a clean, scannable format, so technical teams and decision-makers can compare options quickly and make the case internally."
+  featured: true
+- title: Consumer Print
+  client: Nove Luxury Chocolates
+  image: Print-Nove
+  width: 1600
+  height: 900
+  alt: Nove Luxury Chocolates – Consumer Print
+  summary: "Nove launched a new line of luxury chocolates with full-page ads in prominent Colorado magazines."
+  more: "Custom 3D renders show the three new flavors in rich detail against deep chocolate brown, so the single-origin quality comes through before you read the copy. The ads point readers to fine retailers across Colorado, which keeps the line feeling exclusive and gives curious readers a next step."
+  featured: true
+- title: 'Consumer Print: Natural Feels Better'
+  client: Avitas
+  image: Print-Avitas-Rebrand
+  width: 1600
+  height: 900
+  alt: Avitas – Consumer Print (Campaign 2)
+  summary: "“Natural Feels Better” ran as a series of full-page consumer ads, with matching digital banners so the campaign looked the same everywhere."
+  more: "Avitas’s new packaging sits against vivid, dramatic nature photography. The headline makes the promise in three words and the copy backs it up: all-natural, full-spectrum extracts that keep their terpenes and cannabinoids for a consistent experience. For health-conscious shoppers comparing brands, that clarity is the difference."
+  featured: true
+- title: 'Consumer Print: Find Your Feel Good Moment'
+  client: Avitas
+  image: Print-Avitas-FYFGM
+  width: 1600
+  height: 900
+  alt: Avitas – Consumer Print (Campaign 1)
+  summary: "“Find Your Feel Good Moment” was a series of full-page ads to build awareness for Avitas, with a look and message that carried into digital banners."
+  more: "The photography is candid: real people in relaxed, joyful moments rather than product shots. That ties back to what the brand sells, 100% natural cannabis with no additives, fillers, or flavorings. The tone is laid-back but polished, which helped Avitas reach beyond the usual cannabis audience."
+- title: Consumer Print
+  client: Satori Salvation
+  image: Print-Satori-Salvation
+  width: 1600
+  height: 900
+  alt: Satori Salvation – Consumer Print
+  summary: "Satori Salvation launched its luxury CBD line with full-page color ads in upscale consumer magazines."
+  more: "Custom 3D renders place the products in refined, natural settings, so the elegant packaging and organic ingredients do the talking. Short copy and confident imagery position the line as premium wellness: all natural, high potency, and worth the price."
+- title: Sales Sheet
+  client: Treez
+  image: Print-Treez
+  width: 1600
+  height: 900
+  alt: Treez – Sales Sheet
+  summary: "This double-sided sales sheet shows how much of a cannabis business Treez’s POS and commerce platform covers."
+  more: "The front uses bold color and infographics to map Treez across the whole supply chain. The back shows an isometric dispensary, from the front counter to the back office, so a buyer can see where each part of the platform fits. It gives sales reps one page that does most of the explaining."
+- title: Consumer Print
+  client: Cannable
+  image: Print-Cannable-Newspaper
+  width: 1600
+  height: 900
+  alt: Cannable – Consumer Print
+  summary: "Cannable, a cannabis delivery service in Parlier, California, ran a series of full-page color ads in local newspapers for brand awareness and promotions."
+  more: "Bold visuals and short, punchy copy were built to stand out in a busy local paper, and matching display banners carried the same look online. Running print and digital together meant local readers saw one consistent Cannable wherever they looked."
+- title: Sales Brochure
+  client: Avitas
+  image: Print-Avitas-Brochure
+  width: 1600
+  height: 900
+  alt: Avitas – Sales Brochure
+  summary: "Avitas needed a multi-page brochure for stores, to walk shoppers and staff through its product lines."
+  more: "Each line gets its own spread, with what makes it different stated plainly and the products laid out so they’re easy to compare. Staff can use it to guide a conversation at the counter, and customers can browse it on their own."
+- title: Direct Mail
+  client: Cannable
+  image: Print-Cannable-Mailer
+  width: 1600
+  height: 900
+  alt: Cannable – Direct Mail
+  summary: "Cannable sent direct mail to one-time customers to bring them back for a second order."
+  more: "Each piece featured popular products matched to what the customer had bought before, so the offer felt personal rather than generic. A mailer stands apart from an inbox full of promotions, and a relevant offer gave lapsed customers an easy reason to come back."
+- title: Consumer Handbook
+  client: Northeast Alternatives
+  image: Print-NEA-Handbook
+  width: 1600
+  height: 900
+  alt: Northeast Alternatives – Consumer Handbook
+  summary: "Northeast Alternatives, a Massachusetts dispensary, wanted to make first visits less intimidating for new cannabis users."
+  more: "The answer was a glossy, magazine-style handbook with articles and guides that explain the basics in a friendly way. It helps newcomers shop with confidence and makes the dispensary the place that took the time to explain things."
+- title: Sales Sheets
+  client: Zodaka
+  image: Print-Zodaka-Sales
+  width: 1600
+  height: 900
+  alt: Zodaka – Sales Sheets
+  summary: "Zodaka offers payment solutions, and its sales team needed clear material to explain them."
+  more: "A set of full-page sales sheets breaks down each service and its benefits in plain language. Reps can leave one behind after a meeting, and prospects can understand the offer without a follow-up call."
+- title: Sales Collateral
+  client: Avitas
+  image: Print-Avitas-Collateral
+  width: 1600
+  height: 900
+  alt: Avitas – Sales Collateral
+  summary: "Oversized, postcard-style collateral helped Avitas explain its products to store buyers and shoppers."
+  more: "Custom graphics and infographics turn product details into something you can take in within seconds. The pieces work on a buyer’s desk and at the counter, building familiarity with the brand at both ends of the sale."
+- title: Consumer Print
+  client: Island Herb
+  image: Print-Island-Herb-Ads
+  width: 1600
+  height: 900
+  alt: Island Herb – Consumer Print
+  summary: "Island Herb ran ads in a range of sizes in local newspapers and magazines to bring more people into the dispensary."
+  more: "Bold, eye-catching layouts put the store’s offerings front and center, with a clear reason to visit. The mix of sizes let the campaign appear in many local placements and stay recognizable in each one."
+- title: Consumer Print
+  client: Spokane Green Leaf
+  image: Print-Spokane-Green-Leaf-Ads
+  width: 1600
+  height: 900
+  alt: Spokane Green Leaf – Consumer Print
+  summary: "Spokane Green Leaf ran full-page color ads in Eastern Washington newspapers to build awareness and bring people into the store."
+  more: "Strong headlines and lively copy were written to stand out in local papers, where a full page carries real weight. The goal was simple: be the dispensary readers think of first."
+- title: Spec Sheets
+  client: Adaptiiv
+  image: Print-Adaptiiv-Spec-Sheet
+  width: 1600
+  height: 900
+  alt: Adaptiiv – Spec Sheets
+  summary: "Adaptiiv’s spec sheets give B2B buyers the technical detail behind its cultivation equipment."
+  more: "Each sheet lays out specifications and advantages clearly, so sales conversations can start from shared facts. For growers comparing equipment, a clean spec sheet is often what gets a product on the shortlist."
+- title: In-store Menu
+  client: Island Herb
+  image: Print-Island-Herb-Menu
+  width: 1600
+  height: 900
+  alt: Island Herb – In-store Menu
+  summary: "Island Herb’s large-format printed menu lists more than 100 items, including SKU variants, daily promotions, and vendor visit dates."
+  more: "The layout organizes a lot of information so customers can find what they want quickly and choose with confidence. Print was a deliberate choice: many of the store’s older customers preferred a paper menu to the online systems most dispensaries use."
+digital:
+- title: Digital Flyer, Emails, & Banners
+  client: Dolby
+  image: Digital-Dolby-Cinema
+  width: 1600
+  height: 900
+  alt: Dolby Systems Handbook
+  summary: "Dolby needed a set of digital materials to promote its Dolby Auditorium packages to business clients."
+  more: "Digital flyers, email blasts, and static web banners were designed as one family, so each piece reinforced the others. Everything pointed back to Dolby’s B2B landing pages, giving prospects a clear path from first impression to inquiry."
+  featured: true
+- title: Dolby Live at Park MGM
+  client: Dolby
+  image: Digital-Dolby-Digital-Sheets
+  width: 1600
+  height: 900
+  alt: Dolby Live at Park MGM
+  summary: "For the launch of Dolby Live at Park MGM, scrollable PDFs gave executives and stakeholders a clear overview and detailed training material."
+  more: "The documents supported the rollout of new live entertainment technology at the venue, so the people running it knew how to get the most out of it from opening night."
+  featured: true
+- title: Tim Atlas Display Banners
+  client: Dolby
+  image: Digital-Dolby-Tim-Atlas
+  width: 1600
+  height: 900
+  alt: Dolby Tim Atlas Display Banners
+  summary: "A set of static display banners promoted new music from Tim Atlas."
+  more: "The campaign leaned on Dolby’s reputation for great sound: if Dolby is behind it, it’s worth a listen. Banners ran in multiple sizes across digital platforms, pairing the artist’s look with Dolby’s audio credibility."
+  featured: true
+- title: Consumer Display Banners
+  client: Nove
+  image: Digital-Nove
+  width: 1600
+  height: 900
+  alt: Nove Consumer Display Banners
+  summary: "Before its new luxury chocolates launched, Nove needed digital ads to build anticipation."
+  more: "The banners used custom 3D renders built from technical specs and early photos, so the teaser campaign could start before final product photography existed. It built excitement and awareness ahead of launch."
+  featured: true
+- title: Display Banners
+  client: Satori Salvation
+  image: Digital-Satori
+  width: 1600
+  height: 900
+  alt: Satori Salvation Display Banners
+  summary: "Satori Salvation needed to build awareness for its new line of high-potency luxury CBD."
+  more: "Static display banners used custom 3D renders to show the products and packaging up close, with the same jewel tones and rose-gold details as the packaging and print ads. Simple, striking imagery caught attention in busy feeds and kept the brand’s premium position consistent everywhere it appeared."
+  featured: true
+- title: Consumer Digital
+  client: Avitas
+  image: Digital-Avitas
+  width: 1600
+  height: 900
+  alt: Avitas Consumer Digital
+  summary: "Avitas extended its print campaigns online with static and animated display banners on consumer websites."
+  more: "The banners used the same messages and imagery as the print ads, so readers who saw a full page in a magazine recognized the brand again online. Keeping every channel consistent turned separate placements into one campaign."
+  featured: true
+- title: Social Media
+  client: Avitas
+  image: Digital-Avitas-Social
+  width: 1600
+  height: 900
+  alt: Avitas Social Media
+  summary: "Avitas needed a stronger presence on social media that still looked and sounded like the brand."
+  more: "A set of social templates, plus image assets that blend stock and product photography, gave the team a flexible system. They could post often and quickly without each post drifting off brand."
+- title: Social Media
+  client: Budtender Nation
+  image: Digital-BN-Social
+  width: 1600
+  height: 900
+  alt: Budtender Nation Social Media
+  summary: "Budtender Nation needed a steady stream of content to grow its online community."
+  more: "A content plan delivered regular posts on education and lifestyle topics that matter to budtenders. Useful content gave people a reason to follow, and consistency gave them a reason to keep coming back."
+- title: Social Media Templates
+  client: Cannable
+  image: Digital-Cannable-social
+  width: 1600
+  height: 900
+  alt: Cannable Social Media Templates
+  summary: "Cannable needed social templates it could adapt for every kind of Instagram post."
+  more: "Templates cover Q&A sessions, quotes, promotions, and lifestyle imagery. The system keeps Cannable’s feed lively and recognizable, and makes it easy for the team to keep up a steady posting schedule."
+- title: Custom Emails
+  client: Cannable
+  image: Digital-Cannable-emails
+  width: 1600
+  height: 900
+  alt: Cannable Custom Emails
+  summary: "Cannable used custom HTML emails to keep customers engaged and ordering."
+  more: "Each email pairs strong product photography with offers matched to the audience, built in custom HTML so every message looks as polished as the brand’s ads. The ongoing program supported retention and repeat orders by sending people things they were likely to want, the most efficient marketing there is for a delivery business with an existing customer list."
+- title: Social Media Templates
+  client: Sana
+  image: Digital-Sana-Social
+  width: 1600
+  height: 900
+  alt: Sana Social Media Templates
+  summary: "Sana wanted its partners to promote the brand on social media without breaking brand standards."
+  more: "Co-branded templates with space for each partner’s logo made it easy. Partners got ready-made, professional content they could post right away, and Sana reached their audiences while every post stayed on brand. The templates turned partners into an extension of Sana’s own social channels."
+- title: Social Media Templates
+  client: Truth Alone Clothing
+  image: Digital-TAC-Social
+  width: 1600
+  height: 900
+  alt: Truth Alone Clothing Social Media Templates
+  summary: "A set of social media templates gave Truth Alone Clothing a consistent look online."
+  more: "The templates cover quote cards, Q&A posts, and custom photo assets, so the team could post regularly and recognizably. A simple system made the brand easier to keep up with, for the team and for followers."
+- title: Digital Promos
+  client: Truth Alone Clothing
+  image: Digital-TAC-Promos
+  width: 1600
+  height: 900
+  alt: Truth Alone Clothing Digital Promos
+  summary: "Truth Alone Clothing wanted to drive more traffic to its online store."
+  more: "The work included website hero images and digital postcards for online specials, designed to turn browsing into buying. Together with the brand’s social templates, they gave every promotion a consistent, polished look."
+- title: Social Media Templates
+  client: Xtraction Services
+  image: Digital-XS-Social
+  width: 1600
+  height: 900
+  alt: Xtraction Services Social Media Templates
+  summary: "Xtraction Services needed consistent, engaging content for Instagram."
+  more: "Custom templates cover quote cards, client spotlights, and branded product photos. The mix shows off the equipment and the people who use it. For a B2B equipment maker, a steady, professional Instagram presence keeps the brand visible between sales conversations and gives the sales team something current to point prospects to."
+- title: Custom Email Blasts
+  client: Zodaka
+  image: Digital-Zodaka-Emails
+  width: 1600
+  height: 900
+  alt: Zodaka Custom Email Blasts
+  summary: "Zodaka’s email blasts were designed to match its printed sales materials."
+  more: "The same look in email and print meant prospects recognized Zodaka in every channel, and each message built on the last. Clean layouts and clear calls to action kept the focus on the offer. For a payments company, looking consistent is part of looking trustworthy."
+web:
+- title: Hotel Teatro
+  image: Web-Hotel-Teatro
+  width: 1600
+  height: 900
+  alt: Hotel Teatro Website
+  summary: "Hotel Teatro’s homepage was redesigned to match the hotel’s luxury reputation and make booking easier."
+  more: "A sleek booking widget sits front and center, and glossy, frosted-glass mega-menus make the site easy to explore without losing its elegance. The redesign streamlined booking and increased direct bookings, which means more guests booking with the hotel rather than through third parties."
+  featured: true
+- title: The Kahala Hotel & Resort
+  image: Web-Kahala
+  width: 1600
+  height: 900
+  alt: The Kahala Hotel & Resort
+  summary: "The Kahala Hotel & Resort’s homepage was redesigned to strengthen its online presence and simplify booking. Its record-setting Black Friday/Cyber Monday campaign brought in $1.2M+ through coordinated paid media, email, and social."
+  more: "A booking widget, mega-menus, and interactive image carousels make it easy to explore the resort and reserve a stay. The design keeps the sense of luxury and exclusivity the Kahala is known for while shortening the path to booking."
+  featured: true
+- title: Kauai Shores Hotel
+  image: Web-Kauai-Shores
+  width: 1600
+  height: 900
+  alt: Kauai Shores Hotel
+  summary: "Kauai Shores is a boutique hotel with an eclectic, kitschy personality, and its website needed to show it."
+  more: "Vintage and retro touches, bright colors, and playful graphics bring the property’s vibe online. Guests get a feel for the hotel from the first click, which helps a smaller property stand out from bigger, more generic resorts."
+  featured: true
+- title: Dolby Systems Handbook
+  image: Web-Dolby-DSH
+  width: 1600
+  height: 900
+  alt: Dolby Systems Handbook
+  summary: "Dolby’s technical systems handbook became a web portal for Dolby professionals."
+  more: "Custom infographics and technical diagrams make complex information easier to follow, and the web format makes it easy to search and update. The portal serves Dolby’s global workforce as a go-to reference for training and day-to-day work."
+  featured: true
+- title: Milly Brands Website
+  image: Web-Milly
+  width: 1600
+  height: 900
+  alt: Milly Brands Website
+  summary: "Milly Brands needed a distinct landing page for each of its consumer product lines."
+  more: "Bold imagery and detailed product information give each line its own presence while keeping the overall site consistent. Shoppers find the line they’re looking for quickly and get what they need to buy."
+  featured: true
+- title: Hunter & Esquire Website
+  image: Web-HunterEsquire
+  width: 1600
+  height: 900
+  alt: Hunter & Esquire Website
+  summary: "The Hunter & Esquire website was built to generate leads and give the firm a home for its blog."
+  more: "Clear service pages and calls to action bring in new clients, while the blog builds the firm’s reputation in cannabis legal recruitment. Together they support growth in a specialized market."
+  featured: true
+- title: Northeast Alternatives Website
+  image: Web-NEA
+  width: 1600
+  height: 900
+  alt: Northeast Alternatives Website
+  summary: "Northeast Alternatives, a Massachusetts dispensary, needed a website that worked as an online storefront."
+  more: "Menus, product information, blog posts, and FAQs come together in one place for medical and recreational customers. The site educates first-time visitors and makes it easy for regulars to find what they want."
+- title: Better Vapes Website
+  image: Web-Better
+  width: 1600
+  height: 900
+  alt: Better Vapes Website
+  summary: "Better Vapes got a single-page website with everything a customer needs to know about the brand and its products."
+  more: "Keeping it to one page means visitors scroll from brand story to products without hunting through menus. It’s quick to load, quick to read, and quick to act on."
+- title: Bison & Rose Website
+  image: Web-Bison
+  width: 1600
+  height: 900
+  alt: Bison & Rose Website
+  summary: "Bison & Rose’s website includes a store locator, FAQs, and a detailed page for every product."
+  more: "The site answers pre-purchase questions and then points customers to the nearest store. Detailed product pages help people choose with confidence, and the brand’s luxury look carries through the whole experience."
+- title: Budtender Nation Website
+  image: Web-BN
+  width: 1600
+  height: 900
+  alt: Budtender Nation Website
+  summary: "Budtender Nation’s website is the hub of a social network for budtenders, with discussion forums, memberships, and a network of bloggers."
+  more: "It gives people who work in dispensaries a place to learn from each other, share experience, and stay connected to an industry that changes fast."
+- title: Cannable Website
+  image: Web-Cannable
+  width: 1600
+  height: 900
+  alt: Cannable Website
+  summary: "Cannable’s website is an online storefront with detailed menus, a delivery zone map, and FAQs."
+  more: "The layout keeps ordering simple: customers can check whether Cannable delivers to them, browse a detailed menu, and get answers to common questions without calling the store. For a delivery business, every question answered on the page is one less reason to abandon an order."
+- title: Greenbrier Holdings Website
+  image: Web-Greenbrier
+  width: 1600
+  height: 900
+  alt: Greenbrier Holdings Website
+  summary: "Greenbrier Holdings’ corporate website gives stakeholders the essentials: company information, contact details, and FAQs."
+  more: "For a family company moving from farming into cannabis, credibility matters more than flash. The site is clear and professional, answers the questions partners and investors ask first, and makes it easy to reach the right person. It presents Greenbrier as an established, transparent business, in keeping with the heritage in its logo."
+- title: New England Hemp Farm E-Commerce Store
+  image: Web-NEHF
+  width: 1600
+  height: 900
+  alt: New England Hemp Farm E-Commerce Store
+  summary: "New England Hemp Farm’s online store was built on Shopify to make buying simple."
+  more: "The design carries the farm’s handcrafted, local look from the logo and packaging into the store. Clear product pages, simple navigation, and Shopify’s reliable checkout make it easy to buy direct, which gives the brand a sales channel it controls and a direct relationship with its customers."
+- title: Simplifya Website
+  image: Web-Simplifya
+  width: 1600
+  height: 900
+  alt: Simplifya Website
+  summary: "Simplifya’s website supports a cannabis compliance company with lead generation, a blog, FAQs, and service overviews."
+  more: "Compliance is complicated, so the site focuses on explaining it clearly. Service overviews and FAQs cover the basics, the blog builds trust with useful content, and calls to action throughout make it easy for prospects to get in touch when they’re ready."
+- title: Treez Landing Pages
+  image: Web-Treez
+  width: 1600
+  height: 900
+  alt: Treez Landing Pages
+  summary: "Custom landing pages supported specific Treez advertising campaigns."
+  more: "Each page matches the ad that sent people there and focuses on one thing: getting the visitor to ask for a demo or more information. With fewer distractions, visitors stay focused on the next step, and a separate page for each campaign makes it easy to see which ads bring in the best leads."
+- title: VIP IT Inc. Website
+  image: Web-VIPIT
+  width: 1600
+  height: 900
+  alt: VIP IT Inc. Website
+  summary: "VIP IT Inc.’s homepage was redesigned to bring in more leads."
+  more: "It lays out the company’s services in detail and adds a client portal and a blog. New visitors can see what VIP IT does and get in touch, and existing clients have a direct way into support."

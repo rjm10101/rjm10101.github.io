@@ -1,0 +1,100 @@
+# Homepage content. "case_studies" lead the page; "disciplines" are the
+# portfolio rows below them, three examples each, pointing at projects.yml
+# (or auana.yml) by category and image.
+# Hero stats: one per part of Ray's career, each something he led.
+stats:
+  - value: $47M+
+    label: Ticket revenue for Cirque du Soleil ʻAuana, in under two years
+  - value: $250M+
+    label: Samsung U.S. media directed per quarter, at Starcom
+  - value: 60x
+    label: Weekly sales growth for Cannable in 13 months
+  - value: Cannes Lions
+    label: Gold & Silver, plus Effie Gold & Silver, 2013–2015
+clients:
+  - Cirque du Soleil
+  - Dolby
+  - Samsung
+  - Mastercard
+  - Rakuten
+  - RCA
+case_studies:
+  - page: auana
+    label: Cirque du Soleil
+    title: Cirque du Soleil ʻAuana
+    line: "Led marketing for Cirque du Soleil’s first resident show in Hawaiʻi, from brand and creative to media, partnerships, and pricing, and owned the sales and marketing budgets."
+    image: Auana-Key-Visual
+    width: 1600
+    height: 900
+    large: 2400
+    alt: "The ʻAuana key visual: performers on a volcanic ridge under a sunrise sky."
+    stats:
+      - { value: 470K+, label: Guests }
+      - { value: $47M+, label: Ticket revenue in under two years }
+      - { value: "9% → 27%", label: "Outdoor ad recall, highest of any medium" }
+  - page: samsung-oscars
+    label: Samsung
+    title: The Oscars Selfie
+    line: "Drove paid media for the first-ever Oscars product integration, which put a Galaxy Note 3 in Ellen DeGeneres’ hands for the most retweeted tweet of its time."
+    image: Oscars-Selfie
+    width: 1444
+    height: 812
+    alt: "Ellen DeGeneres’ Oscars selfie with Bradley Cooper, Jennifer Lawrence, Meryl Streep, Julia Roberts, Brad Pitt, and others."
+    stats:
+      - { value: 43.7M, label: Viewers }
+      - { value: 3.4M+, label: Retweets }
+      - { value: $730M+, label: Earned media value }
+  - page: wallhuggers
+    label: Samsung
+    title: Wallhuggers
+    line: "Pioneered a new out-of-home format for the Galaxy S5, putting ads on airport power outlets where travelers sat waiting for a charge."
+    image: Samsung-Wallhuggers-Hero
+    width: 1600
+    height: 766
+    focus: 42% 50%
+    alt: "Four travelers sitting on an airport floor along a grey wall, each charging a phone at an outlet framed by a Samsung Galaxy S5 decal."
+    stats:
+      - { value: +4 pts, label: Brand awareness }
+      - { value: "416", label: "Placements in four airports" }
+      - { value: 27M, label: Impressions }
+  - page: cannable
+    label: Cannable
+    title: Cannable
+    line: "Built a cannabis delivery brand in California’s Central Valley and grew weekly sales from under $3K to $176K in just over a year."
+    image: Cannable-Store
+    width: 1600
+    height: 900
+    alt: "The Cannable store in Parlier, with its blue neon sign on a brick wall."
+    stats:
+      - { value: $176K, label: "Best week of sales, up from $2.9K" }
+      - { value: $8.4M, label: Gross sales }
+      - { value: 52%, label: Online customers who reordered }
+# Homepage disciplines, in display order, with three example projects each
+# (image names from _data/projects.yml). "subs" gives a subheader for
+# examples whose project has no separate client name.
+disciplines:
+  - slug: web
+    examples: [Web-Kahala, Web-Kauai-Shores, Web-Hotel-Teatro]
+    subs: { Web-Kahala: Website redesign, Web-Kauai-Shores: Website redesign, Web-Hotel-Teatro: Website redesign }
+  - slug: print
+    examples: [Auana-Print-Hana-Hou-Spread, Print-Avitas-Rebrand, Print-Grammys-Program-Spread]
+    subs: { Auana-Print-Hana-Hou-Spread: "Cirque du Soleil ʻAuana, Hana Hou! magazine spread" }
+  - slug: digital
+    examples: [Digital-TAC-Promos, Digital-Sana-Social, Digital-Dolby-Cinema]
+  - slug: presentations
+    examples: [Presentation-Rakuten, Presentation-Dolby-GDC, Presentation-RCA]
+  - slug: branding
+    examples: [Logo-Greenbrier-Hldgs, Presentation-LeEco-BG, Logo-Satori-Salvation]
+    subs: { Logo-Greenbrier-Hldgs: Logo, Logo-Satori-Salvation: Logo }
+  - slug: packaging
+    examples: [Packaging-Satori-Salvation, Packaging-Happy-Camper, Packaging-NEHF]
+    subs: { Packaging-Satori-Salvation: CBD packaging, Packaging-Happy-Camper: Pre-roll packaging, Packaging-NEHF: Hemp product packaging }
+press:
+  quote: "The seats don’t fill themselves. Filling them, night after night, is the actual job."
+  source: Pacific Edge Magazine
+  issue: 2026 Hospitality Spotlight
+  # The magazine's own words (LinkedIn post announcing the feature).
+  blurb: "what it truly takes to steer the narrative for a world-class show right here in the islands"
+  url: https://www.pacificedgemagazine.com/ray-mark/
+  # LinkedIn post the blurb comes from.
+  post_url: https://lnkd.in/p/gi7iyJRZ

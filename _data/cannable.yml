@@ -1,0 +1,141 @@
+# Cannable case study (cannable.html). Sales figures from Cannable's Treez
+# point-of-sale data (Feb 2020 – Jul 2021) and Dutchie online delivery orders
+# (Apr – Jul 2020). Totals only; no customer data. Same structure as auana.yml.
+
+hero:
+  label: Case study · Cannable
+  title: Cannable
+  lead: "Brand, creative, and growth marketing for a cannabis delivery service in Parlier, California, which went from under $3K to $176K in weekly sales in 13 months."
+  role: Creative Director, WYD Agency<br>2020 – 2021
+  image: Cannable-Store
+  width: 1600
+  height: 900
+  alt: "Inside the Cannable store in Parlier: a brick wall with the blue neon Cannable sign, a screen, and a glass counter."
+  caption: The Cannable store, Parlier
+
+overview:
+  title: A delivery brand, built from scratch
+  meta:
+    - { label: Role, value: "Creative Director, WYD Agency" }
+    - { label: Client, value: Cannable }
+    - { label: Location, value: "Parlier, California" }
+    - { label: Dates, value: February 2020 – July 2021 }
+  lead: "Scaled Cannable from $2,882 in its first full week of sales to $176,468 in its best week, in just over a year."
+  body:
+    - "Cannable started selling in February 2020, weeks before California’s stay-at-home order. Delivery quickly became the business. The work covered everything a young brand needs: an identity, a website that works as a storefront, email and direct mail to bring customers back, social, newspaper, and outdoor ads, and screens in the store."
+
+results:
+  stats:
+    - { value: $2.9K → $176K, label: "Weekly sales, first full week to best week" }
+    - { value: $8.4M, label: "Gross sales, February 2020 – July 2021" }
+    - { value: 78K+, label: Orders }
+    - { value: $107, label: Average order }
+    - { value: 52%, label: Online delivery customers who ordered again }
+    - { value: $43.4K, label: "Best single day: April 20, 2021" }
+  cols: 3
+  note: "Figures from Cannable’s Treez and Dutchie sales data."
+
+sections:
+  - id: brand
+    label: Brand
+    title: Built for speed
+    intro: "Two marks, one for the delivery service and one for the store, share speed lines and a bright, confident blue. The system carries from the logo animation to stationery and merch."
+    rows:
+      - items:
+          - image: Cannable-Logo-Animation
+            width: 1280
+            height: 720
+            video: /assets/video/cannable-logo.mp4
+            alt: "The Cannable logo animating in glowing blue on a dark background."
+            caption: Logo animation
+          - image: Cannable-Logos
+            width: 1600
+            height: 900
+            alt: "Two Cannable logos: the delivery mark with a car shape and the store mark with speed lines."
+            caption: Delivery and store logos
+      - items:
+          - image: Cannable-Stationery
+            width: 1600
+            height: 900
+            alt: "Cannable letterhead, business cards, and pens in blue and white."
+            caption: Stationery
+          - image: Cannable-Tshirt
+            width: 1600
+            height: 900
+            alt: "A navy Cannable Delivery T-shirt with a blue pattern and 04.20 on the sleeve."
+            caption: Merch
+
+  - id: website
+    label: Website and ordering
+    title: A storefront that answers first
+    intro: "The website works as the store: a full menu, FAQs, and a delivery map, so customers can check whether Cannable delivers to them before they order. Online delivery orders took off in the first months of COVID."
+    stats:
+      - { value: "7,804", label: "Online delivery orders, April – early July 2020" }
+      - { value: $119, label: Average online order }
+    rows:
+      - items:
+          - image: Cannable-Website
+            width: 1600
+            height: 900
+            alt: "Cannable website pages: a homepage promoting local brands, and a delivery map of the Central Valley service area."
+            caption: Website and delivery map
+
+  - id: retention
+    label: Email and direct mail
+    title: Bringing customers back
+    intro: "Custom HTML emails paired product photography with offers matched to each audience. One-time customers got a “We’ve been missing you” mailer with picks based on what they had bought before."
+    stats:
+      - { value: 52%, label: Online delivery customers who ordered again }
+      - { value: 83%, label: Share of online orders from repeat customers }
+    rows:
+      - items:
+          - image: Cannable-Emails
+            width: 1600
+            height: 900
+            alt: "Three Cannable emails: a delivery launch, a deal announcement, and a Valentine’s Day promotion."
+            caption: Emails
+          - image: Cannable-Mailer
+            width: 1600
+            height: 900
+            alt: "A Cannable direct-mail piece reading “We’ve been missing you,” with recommended products inside."
+            caption: Direct mail to one-time customers
+
+  - id: advertising
+    label: Advertising
+    title: Local and loud
+    intro: "A billboard, full-page newspaper ads, and a set of social templates kept Cannable in front of the area, including a campaign for its first anniversary in 2021."
+    rows:
+      - items:
+          - image: Cannable-Billboard
+            width: 1600
+            height: 900
+            alt: "A billboard reading “Discreet Cannabis Delivery” with the Cannable Delivery logo, against palm trees and blue sky."
+            caption: Billboard
+          - image: Cannable-Newspaper
+            width: 1600
+            height: 900
+            alt: "Three full-page Cannable newspaper ads, including a one-year anniversary ad from 2021."
+            caption: Newspaper ads
+      - items:
+          - image: Cannable-Social
+            width: 1600
+            height: 900
+            alt: "A grid of Cannable social posts with lifestyle photography, product shots, and a map of California."
+            caption: Social templates
+
+  - id: store
+    label: In store
+    title: Selling delivery at the counter
+    intro: "Screens in the Parlier store explained the delivery zone, deals, and how to order, so walk-in shoppers learned they could get Cannable delivered next time."
+    rows:
+      - items:
+          - image: Cannable-Store-Screens
+            width: 1600
+            height: 900
+            alt: "In-store screen slides on dark blue: the delivery zone map, ways to shop, deals, and customer reviews."
+            caption: In-store screens
+
+next:
+  label: Next case study
+  title: Cirque du Soleil ʻAuana
+  url: /auana.html

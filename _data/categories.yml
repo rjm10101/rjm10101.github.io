@@ -1,0 +1,41 @@
+# Portfolio categories, in display order. "grid" is the homepage tile image
+# (assets/img/grid-<grid>.webp); "wide" tiles take the larger column.
+- slug: branding
+  name: Branding
+  tile: Branding
+  blurb: Identity, logos + brand guidelines
+  intro: "Brand identities, from the ʻAuana brand guidelines and key visuals for Cirque du Soleil to marks for heritage farming companies and wellness start-ups. Each one starts from the company’s story and has to work everywhere it shows up, from packaging and signage to the pitch deck."
+  grid: logo
+  wide: true
+- slug: packaging
+  name: Packaging Design
+  tile: Packaging Design
+  blurb: Packaging design + 3D renders
+  intro: "Packaging for wellness and CBD brands, built to stand out on the shelf and still meet strict labeling rules. Many pieces came with custom 3D renders that carried the launch into ads and online."
+  grid: packaging
+- slug: print
+  name: Print Creative
+  tile: Print Creative
+  blurb: Consumer print + business collateral
+  intro: "Magazine and newspaper ads, trade print, direct mail, and sales sheets, led by the ʻAuana campaign for Cirque du Soleil and full-page spreads for Dolby. The range runs from national placements to in-store menus and B2B sales collateral."
+  grid: print
+- slug: presentations
+  name: Presentation Design
+  tile: Presentation Design
+  blurb: Sales, investor + keynote decks
+  intro: "Sales decks, investor presentations, and keynotes for Cirque du Soleil, Dolby, Samsung, Mastercard, Rakuten, RCA, and LeEco. Each one is built to make a complex story clear and persuasive in the room."
+  grid: preso
+  wide: true
+- slug: digital
+  name: Digital Creative
+  tile: Digital Creative
+  blurb: Digital display ads + email marketing
+  intro: "Display ads, animated HTML5, social content, and email for Cirque du Soleil, Dolby, and consumer brands. Each campaign is built as a set, so it looks like one idea wherever it runs."
+  grid: digital
+  wide: true
+- slug: web
+  name: Web Design
+  tile: Web Design
+  blurb: Responsive web design + e-commerce
+  intro: "Websites, landing pages, and e-commerce stores for hotels, consumer brands, and B2B companies, including Hotel Teatro, The Kahala, and Kauai Shores. The focus is clear navigation, strong imagery, and pages built to convert."
+  grid: web
