@@ -1,0 +1,23 @@
+{%- comment -%}
+  Live HTML5 ads on a board, each at its native pixel size in a sandboxed
+  iframe (scripts only: no popups, no navigation, no same-origin). Paths and
+  class names avoid words like "banner" and ad sizes so ad blockers don't
+  hide them; sizes are set in CSS for the same reason.
+  Params: units (list of { folder, width, height, wide, mobile }), label.
+  "wide" units take their own line; "mobile" units replace them on phones.
+  With reduced motion the banners' backup stills show instead.
+{%- endcomment -%}
+{%- if include.label %}<p class="label case-row-label">{{ include.label }}</p>{% endif %}
+<div class="case-motion reveal">
+  <div class="case-motion-board">
+    {%- for b in include.units %}
+    {%- assign base = '/assets/motion/' | append: b.folder | append: '/' | relative_url %}
+    <figure class="case-motion-unit{% if b.wide %} case-motion--wide{% endif %}{% if b.mobile %} case-motion--mobile{% endif %}">
+      <iframe src="{{ base }}index.html" style="width: {{ b.width }}px; height: {{ b.height }}px" title="ʻAuana launch teaser, {{ b.width }}×{{ b.height }}, animated" loading="lazy" sandbox="allow-scripts" scrolling="no"></iframe>
+      <img class="case-motion-still" src="{{ base }}backup.jpg" style="width: {{ b.width }}px; height: {{ b.height }}px" alt="ʻAuana launch teaser, {{ b.width }}×{{ b.height }}: a performer in a handstand against a kapa sun, “A new sun rises,” and a Buy tickets button." loading="lazy">
+      <figcaption class="label">{{ b.width }}×{{ b.height }}</figcaption>
+    </figure>
+    {%- endfor %}
+  </div>
+  <button class="case-motion-replay text-link" type="button">Replay <svg viewBox="0 0 16 16" aria-hidden="true"><path d="M13.5 8a5.5 5.5 0 1 1-1.6-3.9M12.5 1.5v3h-3"/></svg></button>
+</div>
