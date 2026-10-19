@@ -1,0 +1,11 @@
+title: Ray Mark
+description: "Marketing and creative director in Honolulu. Led marketing for Cirque du Soleil ʻAuana: 470K+ guests and $47M+ in ticket revenue in under two years. Cannes Lions and Effie-winning work for Samsung."
+url: https://raymondmark.com
+email: hello@raymondmark.com
+phone: "+18083546640"
+linkedin: https://linkedin.com/in/rmark
+markdown: kramdown
+exclude:
+  - README.md
+  - CLAUDE.md
+  - docs/

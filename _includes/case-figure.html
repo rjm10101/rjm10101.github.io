@@ -1,0 +1,19 @@
+{%- comment -%}
+  One case-study image. Params: it (item from _data/auana.yml), sizes, eager,
+  and optional image / alt / caption / class overrides (used for the back of
+  a two-sided piece, which shares the front's dimensions).
+  srcset uses each file's real width. width/height are the main file's size
+  (long edge up to 1600); the -800 file has a long edge of at most 800.
+{%- endcomment -%}
+{%- assign it = include.it %}
+{%- assign image = include.image | default: it.image %}
+{%- assign alt = include.alt | default: it.alt %}
+{%- assign caption = include.caption | default: it.caption %}
+{%- if it.width >= it.height %}{% assign long = it.width %}{% else %}{% assign long = it.height %}{% endif %}
+{%- if long > 800 %}{% assign w800 = it.width | times: 800 | divided_by: long %}{% else %}{% assign w800 = it.width %}{% endif %}
+{%- assign base = '/assets/img/' | append: image %}
+<img{% if include.class %} class="{{ include.class }}"{% endif %} src="{{ base | append: '.webp' | relative_url }}"
+     srcset="{{ base | append: '-800.webp' | relative_url }} {{ w800 }}w{% if it.width > w800 %}, {{ base | append: '.webp' | relative_url }} {{ it.width }}w{% endif %}{% if it.large %}, {{ base | append: '-2400.webp' | relative_url }} {{ it.large }}w{% endif %}"
+     sizes="{{ include.sizes }}" width="{{ it.width }}" height="{{ it.height }}" alt="{{ alt | escape }}"
+     {% if include.eager %}fetchpriority="high"{% else %}loading="lazy"{% endif %} decoding="async"
+     data-zoom data-cursor="Enlarge" data-full="{% if it.large %}{{ base | append: '-2400.webp' | relative_url }}{% else %}{{ base | append: '.webp' | relative_url }}{% endif %}" data-caption="{{ caption | escape }}">
